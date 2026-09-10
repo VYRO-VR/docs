@@ -1,64 +1,89 @@
 ---
 title: Updating Firmware
-description: Update the firmware on your IBIS trackers and receiver.
+description: Update the firmware on your IBIS trackers and receiver with VYRO VR Preflight.
 ---
 
-IBIS trackers and receivers run the open-source SlimeVR nRF ("Smol Slime") firmware. Updates ship often with bug fixes and new features. Updating is **optional** — your hardware works fine on whatever firmware it shipped with.
+IBIS trackers and receivers run VYRO VR's build of the open-source SlimeVR nRF ("Smol Slime") firmware. VYRO VR publishes a build for every board it sells at [github.com/VYRO-VR/Firmware](https://github.com/VYRO-VR/Firmware/releases), and the recommended way to install it is **VYRO VR Preflight**, VYRO's desktop setup app. Updating is **optional** — your hardware works fine on whatever firmware it shipped with.
 
 :::caution[VYRO VR's advice: don't update "just because"]
-The nRF firmware is under active development and updates land almost daily. Flashing the wrong image can soft-brick a tracker (recoverable, but a hassle). VYRO VR ships the latest **stable** build and recommends updating only when there's a fix you need or the [Discord](https://discord.gg/vyrovr) **#documentation** channel flags an important release.
+Firmware updates can soft-brick a tracker (recoverable, but a hassle). Update only when there's a fix you need, when you're adding a tracker or receiver that's on a different version, or when the [Discord](https://discord.gg/vyrovr) **#documentation** channel flags an important release. Never disconnect anything mid-flash.
 :::
 
 :::caution[Do not use the SlimeVR Server's firmware updater]
-The **Update firmware** button inside the SlimeVR Server is for official Wi-Fi (ESP-based) SlimeVR trackers. It does **not** apply to IBIS trackers or their receiver. Use the steps on this page instead.
+The **Update firmware** button inside the SlimeVR Server is for official Wi-Fi (ESP-based) SlimeVR trackers. It does **not** apply to IBIS trackers or their receiver.
 :::
 
 ## Trackers and receiver must match
 
-Trackers only pair with a receiver running the **same firmware version**. So:
+Trackers only pair with a receiver running the **same firmware build**. So:
 
 - Update **all** your trackers and the receiver together, to the same release.
 - A replacement receiver arrives on the latest firmware — update your trackers to match before trying to pair.
 - After updating, expect to re-pair if anything doesn't reconnect on its own.
 
-## Get the right firmware file
+Preflight checks this for you: it reads the build commit from the receiver and from every tracker the SlimeVR Server can see, and shows **Up to date** or **Update available** next to each.
 
-Firmware for IBIS is a **`.uf2`** file. Get it from the link VYRO VR posts in the Discord for your tracker revision. There are separate builds for trackers and receivers, and for different IMUs and board layouts — flashing a build meant for different hardware is how trackers get soft-bricked. If you're unsure which file you need, ask in Discord before flashing.
+## Install VYRO VR Preflight
 
-## Updating a tracker
+1. Download the latest installer from [github.com/VYRO-VR/preflight/releases](https://github.com/VYRO-VR/preflight/releases/latest). Windows gets an installer and a portable `.exe`; there are also macOS (`.dmg`) and Linux (`.deb` / AppImage) builds.
+2. Install and launch it. On macOS the build is unsigned, so right-click → **Open** the first time.
+3. Have the **SlimeVR Server** running and your receiver plugged in via its extension cable. Preflight talks to the server for the live tracker list and to the receiver over its USB serial port.
 
-Trackers flash by drag-and-drop over USB — no special software needed.
+Preflight's home screen offers **Pair New Trackers**, **Update Firmware**, **Calibrate Trackers**, **Gyro Sensitivity**, **Troubleshoot Connection Issues**, and a **Full Setup Guide** wizard. This page uses **Update Firmware**.
 
-1. Plug the tracker into your PC with a **USB-C data cable** (some charge-only cables won't work).
-2. Put the tracker into **DFU mode**: press the button **4–5 times** in quick succession. See [DFU Mode](/firmware/dfu-mode/).
-3. A small USB drive named **`NICENANO`** (or **`SLIMEVRTRK`**, depending on bootloader version) appears in File Explorer / Finder.
-4. **Copy the `.uf2` file onto that drive.** The drive disappears on its own when the copy finishes and the tracker reboots into the new firmware.
-5. Do **not** unplug mid-copy. If the copy fails or the drive reappears immediately, the file was rejected — check you have the right build and try again.
-6. Repeat for every tracker in the set.
+:::note
+The one-click flashing steps below need Windows — Preflight watches for the tracker's bootloader drive by drive letter. On macOS and Linux the same page still shows you which firmware you're on and which file you need, and you copy the file onto the drive yourself (see [Manual update](#manual-update-without-preflight)).
+:::
 
-Pairing normally survives a firmware update as long as the receiver is on the same version. If a tracker doesn't reconnect, re-pair it: [Pairing](/trackers/pairing/).
+## Updating with Preflight
 
-## Updating the receiver
+Open **Update Firmware**. The page has three sections:
 
-The receiver uses the same UF2 bootloader.
+### Latest firmware
 
-1. Plug the receiver into your PC.
-2. Put it into DFU mode. Either:
-   - open **nRF Connect for Desktop → Serial Terminal** (or **SmolSlimeConfigurator**), connect to the receiver's serial port, and send `dfu`; or
-   - on a receiver with a physical button, hold the button while plugging it in (double-tap the reset on bare boards).
-3. A USB drive appears. **Copy the receiver `.uf2` file onto it.** The receiver reboots when done.
-4. Reconnect with Serial Terminal and send `info` to confirm the version.
-5. Update your trackers to the same version if they aren't already, then re-launch the SlimeVR Server and confirm everything reconnects.
+Preflight fetches the newest stable release from the VYRO VR firmware repo and shows the **receiver build** and **tracker build** commits it contains. "View release notes" opens the release on GitHub.
+
+### Receiver
+
+1. Preflight finds your receiver on its serial port and reads its firmware **version, commit, build date, and board**. If it can't read them, unplug the receiver, plug it back in, and **Search again** (very old firmware can't report a version at all — updating fixes that too).
+2. The **Status** row tells you whether it matches the latest release. If it does and you don't need to change anything, stop here. **Reinstall or change firmware** is there if you need to force it.
+3. If an update is available, Preflight pre-selects your **receiver board** (Fox Dongle33 for the VYRO VR Receiver, Styria R1, HolyIOT 21017, and so on) and the matching file. Check the board is right — the wrong board's firmware is how receivers get bricked.
+4. Tick **I understand updating may soft-brick the device** and click **Update receiver**. Preflight sends the receiver into update mode, waits for it to appear as a drive, copies the `.uf2` across, and reports the result. **Don't unplug the receiver until it finishes.** HolyIOT receivers have no drive; Preflight flashes those with its bundled DFU tool instead, which can take up to a minute.
+5. When it's done, **Search again** to confirm the new version.
+
+### Trackers
+
+The tracker list comes from the SlimeVR Server, so power on the trackers you want to update. Each shows its firmware commit and whether it's up to date.
+
+1. Click **Update a tracker** and check the pre-selected **tracker board** (Mochi for current IBIS 2.0 trackers).
+2. Connect the tracker to your PC with a **USB-C data cable** — some charge-only cables won't work.
+3. Press its button **4–5 times** in quick succession. The tracker reboots into its bootloader and appears as a small removable drive; Preflight lists it as soon as it shows up.
+4. Tick the acknowledgement and click **Flash to (drive)**. Preflight downloads the `.uf2` and copies it onto the drive. The tracker reboots into the new firmware on its own and the drive disappears.
+5. Repeat for every tracker in the set. Pairing survives the update as long as the receiver is on the same build.
+
+If a tracker doesn't reconnect afterwards, re-pair it — **Pair New Trackers** in Preflight, or see [Pairing](/trackers/pairing/).
+
+## Manual update (without Preflight)
+
+The same thing by hand, for macOS, Linux, or if you'd rather not use the app:
+
+1. Open the [latest firmware release](https://github.com/VYRO-VR/Firmware/releases/latest) and download the file for your board. Files are named `VVR_<Tracker|Receiver>_<Board>_<commit>.uf2` — for example `VVR_Tracker_Mochi_<commit>.uf2` for a current IBIS tracker, or `VVR_Receiver_Fox_Dongle33_<commit>.uf2` for the VYRO VR Receiver. Not sure which board you have? Preflight's Update Firmware page names it, or ask in Discord.
+2. **Tracker:** plug it in over USB-C and press the button 4–5 times. **Receiver:** send `dfu` over its serial console (nRF Connect Serial Terminal or SmolSlimeConfigurator). Either way a small USB drive appears — `MOCHI`, `SLIMENRF`, `NICENANO`, `SLIMEVRTRK`, or `FOX-BOOT` depending on the board.
+3. Copy the `.uf2` onto that drive. The drive disappears when the copy finishes and the device reboots into the new firmware.
+4. Do **not** unplug mid-copy. If the drive reappears immediately, the file was rejected — check you have the right board's build and try again.
+
+HolyIOT receivers don't expose a drive; their release asset is a Secure DFU `.zip` that needs `nrfutil` (bundled in Preflight) — use Preflight for those.
 
 ## Checking versions
 
-- **Receiver:** `info` over the serial terminal.
-- **Tracker:** plug it in over USB-C, connect Serial Terminal to its port, and send `info`. SmolSlimeConfigurator shows the same.
+- **Preflight → Update Firmware** shows everything in one place.
+- **Receiver:** `info` over the serial console prints the version, commit, build date, and board target.
+- **Tracker:** the SlimeVR Server's tracker details show the firmware string, which ends in the build commit.
 
 ## If an update fails mid-flash
 
-A tracker or receiver interrupted mid-copy simply stays in the bootloader — the USB drive will still be there (or reappears after a power-cycle into DFU mode). Copy the previous known-good `.uf2` back on. See [DFU Mode](/firmware/dfu-mode/) for the recovery walk-through.
+A tracker or receiver interrupted mid-copy simply stays in the bootloader — the drive will still be there (or reappears after you re-enter DFU mode). Run the update again, or copy the previous known-good `.uf2` back on. See [DFU Mode](/firmware/dfu-mode/) for the recovery walk-through.
 
 ## Rolling back
 
-Rolling back is the same procedure with an older `.uf2`. Keep the file you flashed last time somewhere safe so you can go back if a new build misbehaves.
+Older releases stay on the [firmware releases page](https://github.com/VYRO-VR/Firmware/releases). Download the earlier file for your board and flash it the manual way. Roll back the receiver **and** the trackers, or they'll stop pairing.

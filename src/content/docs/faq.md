@@ -42,7 +42,7 @@ For sub-millimeter scientific measurement — no, IBIS is not the right tool. Us
 
 ## Can I update the firmware?
 
-Yes — see [Updating Firmware](/firmware/updating/). It's optional, and VYRO VR recommends **not** updating "just because": the firmware is under active development and a wrong image can soft-brick a tracker. Update when there's a fix you need, and keep trackers and receiver on the same firmware version.
+Yes — with **VYRO VR Preflight**, see [Updating Firmware](/firmware/updating/). It's optional, and VYRO VR recommends **not** updating "just because": a wrong image can soft-brick a tracker. Update when there's a fix you need, and keep trackers and receiver on the same firmware build.
 
 ## Do I need to be on Wi-Fi for the trackers to work?
 

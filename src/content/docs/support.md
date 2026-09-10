@@ -9,6 +9,7 @@ The [VYRO VR Discord](https://discord.gg/vyrovr) is the best place for setup hel
 
 When asking for help, please share:
 
+0. If you have [Preflight](https://github.com/VYRO-VR/preflight/releases/latest) installed, the diagnostics report from its **Full Setup Guide → All Set → Export diagnostics** button
 1. Which kit you have (Core / Advanced / Full Body / Lite / Premium) and which receiver (HolyIOT, Styria, or VYRO VR Receiver)
 2. What you're trying to do
 3. What you've already tried
@@ -38,6 +39,8 @@ Several infographics on this site are by **Spazzwan** from the SlimeVR community
 
 ## Other useful links
 
+- [VYRO VR Preflight](https://github.com/VYRO-VR/preflight/releases/latest) — VYRO's desktop setup app (pairing, firmware, calibration, diagnostics export for support)
+- [VYRO VR firmware releases](https://github.com/VYRO-VR/Firmware/releases)
 - [vyrovr.com](https://vyrovr.com) (storefront and blog) · [Contact](https://vyrovr.com/pages/contact)
 - [VYRO VR on YouTube](https://www.youtube.com/channel/UCMEc2Ae1-VYC0SYsQ9qyevg) · [VYRO VR on TikTok](https://www.tiktok.com/@vyrovr)
 - [SlimeVR project home](https://slimevr.dev)

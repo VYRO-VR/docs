@@ -3,7 +3,7 @@ title: DFU Mode
 description: What DFU mode is, how to enter (and exit) it, and when you'd want to.
 ---
 
-**DFU** stands for **Device Firmware Update**. It's a special boot mode where the tracker only runs its **UF2 bootloader**, not normal firmware. While in DFU mode the tracker shows up on your PC as a small USB drive, and you update it by copying a `.uf2` firmware file onto that drive — including recovery from a botched flash.
+**DFU** stands for **Device Firmware Update**. It's a special boot mode where the tracker only runs its **UF2 bootloader**, not normal firmware. While in DFU mode the tracker shows up on your PC as a small USB drive, and you update it by copying a `.uf2` firmware file onto that drive — [VYRO VR Preflight](/firmware/updating/) does that copy for you — including recovery from a botched flash.
 
 You should not enter DFU mode by accident. If you did, follow the **exit** section below.
 
@@ -17,7 +17,7 @@ You should not enter DFU mode by accident. If you did, follow the **exit** secti
 
 **Press the button 4 or 5 times** in quick succession. The tracker enters DFU mode and the LED changes to a slow fade/pulse.
 
-Plug it in over USB-C (a data cable, not charge-only) and your OS will mount a small drive named **`NICENANO`** or **`SLIMEVRTRK`**. Nothing else is needed — no drivers, no programmer app.
+Plug it in over USB-C (a data cable, not charge-only) and your OS will mount a small drive. Current IBIS 2.0 trackers show up as **`MOCHI`**; older builds use **`NICENANO`** or **`SLIMEVRTRK`**, and Styria trackers **`SLIMENRF`**. Nothing else is needed — no drivers, no programmer app. Preflight's Update Firmware page lists the drive the moment it appears.
 
 ## How to exit DFU mode (you didn't mean to enter it)
 
@@ -38,7 +38,7 @@ Entering DFU mode is non-destructive. Pairing, calibration, and stored config al
 If a firmware update failed and the tracker is stuck:
 
 1. Confirm it's in DFU mode (slow fade LED, USB drive shows up when plugged into PC). If not, press the button 4–5 times.
-2. Copy the **previous known-good `.uf2`** (or the correct build for your tracker revision) onto the drive.
+2. In Preflight's **Update Firmware** page, pick the tracker board and **Flash to (drive)** — or copy the correct build for your board from the [firmware releases](https://github.com/VYRO-VR/Firmware/releases) onto the drive yourself.
 3. Wait for the drive to disappear, then power-cycle.
 4. Re-pair if needed: [Pairing](/trackers/pairing/).
 
@@ -46,4 +46,4 @@ If the tracker isn't appearing as a USB drive at all (no fade, no drive), check 
 
 ## Receivers
 
-The receiver has the same UF2 bootloader. Enter it with the `dfu` serial command (via nRF Connect Serial Terminal or SmolSlimeConfigurator) and copy the receiver `.uf2` onto the drive that appears. Details in [Updating Firmware](/firmware/updating/).
+The receiver has the same UF2 bootloader (the VYRO VR Receiver mounts as **`FOX-BOOT`**). Preflight's **Update receiver** button handles the whole sequence; by hand, send `dfu` over the serial console and copy the receiver `.uf2` onto the drive that appears. HolyIOT receivers have no drive and need Preflight's bundled DFU tool. Details in [Updating Firmware](/firmware/updating/).

@@ -33,7 +33,7 @@ There is **one button** on the tracker — the small oval on the top face, which
 |---|---|
 | 1 press | Power on (when off) / **reset** (when already on) |
 | 2 presses | **Side calibration** — IMU calibration on a flat surface, see below |
-| 3 presses | Enter **pairing** mode (LED flashes once per second) |
+| 3 presses | Enter **pairing** mode (LED flashes blue once per second) |
 | 4–5 presses | Enter **DFU** (firmware-update) mode — avoid unless intentional |
 | Hold | Power off |
 
@@ -47,7 +47,7 @@ Side calibration zeroes the gyroscope bias, which is the main source of slow dri
 
 1. Take the tracker off and press the button **twice**.
 2. Set it down on a flat, still surface within a couple of seconds.
-3. The LED flashes **once**, then goes **solid** while calibrating, then gives **4 rapid flashes** on success.
+3. The LED cycles through **rainbow colours** while it calibrates and stops when it's done (older firmware: one flash → solid → 4 rapid flashes).
 4. Pick it up and carry on.
 
 Do this if one tracker drifts noticeably faster than the rest. Trackers ship calibrated, so most people never need it.
@@ -57,8 +57,9 @@ Do this if one tracker drifts noticeably faster than the rest. Trackers ship cal
 | LED behavior | Meaning |
 |---|---|
 | Comes on after a single press | Powered on |
-| Flashing once per second | Pairing mode (3 presses) |
-| One flash → solid → 4 rapid flashes | Side calibration running / succeeded |
+| Short purple flash | Reset sent (single press while on) |
+| Flashing blue once per second | Pairing mode (3 presses) |
+| Rainbow cycling | Side calibration running |
 | Solid then fades out (or just fades out) when you hold the button | Powering off (which one you see depends on firmware) |
 | Slow fade / pulse plus a USB drive appearing on your PC | DFU mode |
 

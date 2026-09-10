@@ -47,7 +47,7 @@ That's it. No drivers, no pairing app, no Wi-Fi credentials. Windows, macOS, and
 
 ## Replacement receivers and firmware versions
 
-Replacement receivers ship pre-flashed with the **latest** receiver firmware, which may be newer than the trackers you already own. Trackers and receiver must be on matching versions to pair, so plan on updating your trackers when you swap receivers — see [Updating Firmware](/firmware/updating/) and [Pairing](/trackers/pairing/).
+Replacement receivers ship pre-flashed with the **latest** receiver firmware, which may be newer than the trackers you already own. Trackers and receiver must be on matching versions to pair, so plan on updating your trackers when you swap receivers — see [Updating Firmware](/firmware/updating/) and [Pairing](/trackers/pairing/). [VYRO VR Preflight](/firmware/updating/#install-vyro-vr-preflight) reads the receiver's board and firmware build for you if you're not sure which one you have.
 
 ## Multiple receivers
 

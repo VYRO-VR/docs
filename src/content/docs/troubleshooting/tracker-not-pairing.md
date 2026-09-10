@@ -32,7 +32,7 @@ This fixes most "stuck in a weird state" issues, including trackers that have en
 
 ## 5. Re-pair it
 
-If the tracker has somehow forgotten its pairing (or you're using a new receiver), follow the [Pairing](/trackers/pairing/) procedure end-to-end. Brief version:
+If the tracker has somehow forgotten its pairing (or you're using a new receiver), follow the [Pairing](/trackers/pairing/) procedure end-to-end. Easiest: open **VYRO VR Preflight → Pair New Trackers**, then press the tracker's button 3 times. Manual version:
 
 1. Put the receiver into pairing mode — press the button on a VYRO VR Receiver, or send `pair` from **nRF Connect for Desktop → Serial Terminal** / SmolSlimeConfigurator on a HolyIOT or Styria receiver.
 2. On the tracker, press the button **3 times** quickly — LED starts blinking once per second.

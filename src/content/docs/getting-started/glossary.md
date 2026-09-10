@@ -83,6 +83,10 @@ The piece of software that exposes SlimeVR trackers to SteamVR as virtual Vive-s
 
 A short IMU calibration you trigger from the tracker itself (two button presses) with the tracker resting on a flat surface. Removes gyro bias so the tracker drifts less. Not the same thing as mounting calibration.
 
+## Preflight
+
+**VYRO VR Preflight** is VYRO's desktop setup app (Windows, with macOS and Linux builds). It pairs trackers, checks and updates firmware on trackers and the receiver, walks through calibration and setup, and exports diagnostics for support. Download it from [github.com/VYRO-VR/preflight/releases](https://github.com/VYRO-VR/preflight/releases/latest). See [Updating Firmware](/firmware/updating/).
+
 ## Smol Slime
 
 The SlimeVR community's name for small nRF-based trackers and the firmware they run. IBIS trackers are Smol Slimes, so the [Smol Slimes docs](https://docs.slimevr.dev/smol-slimes/) apply to them.
