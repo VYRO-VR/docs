@@ -32,6 +32,12 @@ The hip tracker has shifted or rotated since mounting calibration, or your torso
 
 A single tracker's gyro bias may have wandered. Run **side calibration** on it — two button presses with the tracker resting on a flat surface, wait for the four rapid flashes (see [IBIS Overview](/trackers/ibis-overview/#side-calibration-2-presses)). If that doesn't help, swap its body-part assignment with a different tracker (e.g., move the left-thigh tracker to right-thigh). If the drift follows the tracker, that tracker is the problem — reach out via [support](/support/).
 
+To work out *which* tracker is misbehaving without guessing, isolate it with a movement that only that tracker should respond to: lift a knee (upper leg), swing the lower leg (ankle), or tilt a foot. Your hip tracker should not move during any of them.
+
+![Movements to isolate tracker issues: lift the knee for the upper leg, swing the lower leg for the ankle, tilt the foot for the foot tracker](../../../assets/infographics/isolate-tracker.png)
+
+*Infographic by [Spazzwan](https://imgur.com/a/PCYz9Zw), used with permission.*
+
 ### "Drift gets bad when I do fast turns"
 
 This is normal in inertial tracking. Fast yaw motion accumulates errors. Mitigations: Stay Aligned, more frequent yaw resets, and a stationary moment between turns.

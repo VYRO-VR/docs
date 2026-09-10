@@ -32,6 +32,10 @@ The source for this site is on GitHub at [VYRO-VR/docs](https://github.com/VYRO-
 
 These pages are **AI-generated** from publicly available SlimeVR documentation ([docs.slimevr.dev](https://docs.slimevr.dev)) and VYRO VR product information from [vyrovr.com](https://vyrovr.com), then reviewed and edited by the VYRO VR team. Some details may still be inaccurate or out of date. **If you spot a discrepancy, please open an issue or pull request** on the [repository](https://github.com/VYRO-VR/docs) — that's the fastest way to get it fixed for everyone.
 
+## Credits
+
+Several infographics on this site are by **Spazzwan** from the SlimeVR community, reproduced with permission from [Spazzwan's infographic album](https://imgur.com/a/PCYz9Zw). Product photos are VYRO VR's own.
+
 ## Other useful links
 
 - [vyrovr.com](https://vyrovr.com) (storefront and blog) · [Setup guide](https://vyrovr.com/setup) · [Contact](https://vyrovr.com/pages/contact)

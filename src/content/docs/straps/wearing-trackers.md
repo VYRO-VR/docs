@@ -7,6 +7,10 @@ This is the reference page for **placement**. Get this right and your tracking w
 
 The good news: SlimeVR's mounting calibration is forgiving about exact rotation. As long as the tracker is on the right body part and roughly flat against the limb, the wizard figures out the rest.
 
+![Body placement map: black bands mark the recommended tracker position on the chest, waist, hip, upper arms, upper legs, lower legs and feet; grey bands mark alternatives; yellow arrows show the acceptable range](../../../assets/infographics/placement-map.png)
+
+*Infographic by [Spazzwan](https://imgur.com/a/PCYz9Zw), used with permission.*
+
 ## General rules
 
 1. **Mount trackers where muscle movement won't shift them.** You want the tracker to follow your bones, not your soft tissue. Pick the spot on each limb where flexing the muscle nearby moves the tracker as little as possible.
@@ -49,7 +53,7 @@ Per [SlimeVR's guidance](https://docs.slimevr.dev/server/putting-on-trackers.htm
 
 ### Chest
 
-- **Position:** on the chest via the [chest harness](/straps/chest-harness/). SlimeVR's guidance is the middle or lower chest, facing forward; if you have a larger chest, mount above the bust. Keep it consistent between sessions.
+- **Position:** on the chest via the [chest harness](/straps/chest-harness/). **Higher is better** — toward the upper chest, above the bust, not low on the ribs. Keep it consistent between sessions.
 - **Orientation:** USB port down
 
 ## Feet

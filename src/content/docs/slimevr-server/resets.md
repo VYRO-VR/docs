@@ -58,9 +58,17 @@ A single press of any powered-on tracker's button also triggers a **reset**, whi
 
 ## Reset etiquette
 
-- Stand straight when you trigger a full reset
+- Stand straight when you trigger a full reset, back straight, legs parallel
+- Feet **5–10 cm apart**, pointing forward — not an A-frame
 - Face the direction you want to be "forward"
 - Don't trigger a reset mid-motion — you'll zero against a weird pose
+- If you can't stand, a kneeling reset with a straight back works too
+
+![Reset posture: legs parallel with knees and feet 10 cm apart (good), legs in an A-frame (bad), keep a straight back, and a kneeling alternative](../../../assets/infographics/reset-pose.jpg)
+
+![Feet spacing for resets and FBT calibration: 5 to 10 cm between the feet](../../../assets/infographics/feet-spacing.webp)
+
+*Infographic by [Spazzwan](https://imgur.com/a/PCYz9Zw), used with permission.*
 
 ## How often should I reset?
 

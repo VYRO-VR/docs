@@ -26,6 +26,10 @@ If it's missing, the driver didn't register. Reinstall the SlimeVR Server, or ru
 
 Same panel as above — toggle **slimevr** to **On**. Restart SteamVR.
 
+![SteamVR menu → Settings → Advanced Settings Show → Startup/Shutdown → Manage Add-ons → slimevr On. If slimevr is missing, close both apps, run the SlimeVR installer and choose Repair](../../../assets/infographics/steamvr-addons.png)
+
+*Infographic by [Spazzwan](https://imgur.com/a/PCYz9Zw), used with permission.*
+
 ## 4. Conflicting drivers
 
 If you've previously had Vive trackers or another full-body solution installed, the SteamVR driver list may have an older driver shadowing SlimeVR. In the same panel, disable other tracking drivers and restart SteamVR.

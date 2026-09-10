@@ -33,6 +33,14 @@ If one tracker is mounted unusually, the Trackers panel lets you set its mountin
 Double-pressing a tracker's button starts **side calibration**, which is an IMU (gyro-bias) calibration done with the tracker resting on a flat surface. It has nothing to do with mounting orientation. See [IBIS Overview](/trackers/ibis-overview/#side-calibration-2-presses).
 :::
 
+## Foot trackers
+
+Foot trackers get their own mounting pass. Do a **full reset**, then raise your heels onto your toes and trigger **Reset feet mounting** (bind it, or click it in the Trackers panel). Wait until the last second to raise your heels so the rest of your body is still in the neutral pose.
+
+![Raise your heels, then Full Reset followed by Reset Feet Mounting](../../../assets/infographics/feet-mounting-reset.png)
+
+*Infographic by [Spazzwan](https://imgur.com/a/PCYz9Zw), used with permission.*
+
 ## When to re-run mounting calibration
 
 - You took a tracker off and put it back on a different way

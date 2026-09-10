@@ -13,10 +13,18 @@ The chest tracker doesn't use a strap and tray. It clips onto a **mount** on a h
 
 The Lite Edition set has no harness; the Chest Harness Lite is the usual add-on.
 
+## The tracker mount
+
+The harness carries a **mount** that clips onto the harness with a GoPro-style two-prong fork. The IBIS mount is a square tray with side rails that the tracker slides into, USB-C port down. A second bracket with the same fork fits an **official SlimeVR tracker** (remove the tracker's back plate, two screws, and screw it to the bracket), and a wider **extension bracket** takes the official SlimeVR extension tracker on a 30 mm strap if you use one on the hip.
+
+| IBIS tracker mount | Official SlimeVR tracker bracket | SlimeVR extension bracket |
+|---|---|---|
+| ![IBIS chest mount: square tray with side rails and a two-prong GoPro-style fork](../../../assets/photos/chest-mount-ibis.webp) | ![Rounded bracket with two screw bosses and a two-prong fork, for an official SlimeVR tracker](../../../assets/photos/chest-mount-slimevr.webp) | ![Flat bracket with raised lips and strap slots at both ends, for the SlimeVR extension tracker](../../../assets/photos/extension-bracket.webp) |
+
 ## Putting it on
 
 1. **Loosen the shoulder and side adjusters**, then put the harness on like a vest with the tracker mount on the front.
-2. **Position the mount** on the chest. SlimeVR's own guidance is the middle or lower part of the chest, facing forward; if you have a larger chest, mount it above the bust instead. Either works — just be consistent between sessions and re-run [mounting calibration](/slimevr-server/mounting-calibration/) if you move it.
+2. **Position the mount high on the chest.** Higher is better — toward the upper chest, above the bust, never low on the ribs. Be consistent between sessions and re-run [mounting calibration](/slimevr-server/mounting-calibration/) if you move it.
 3. **Tighten** until the harness doesn't ride up or down when you raise your arms or lean forward. Snug, not restrictive — you'll be breathing into it for hours.
 4. **Fit the tracker into the mount** with the USB-C port pointing **down**. On the standard harness the mount is a slide-in clip like the strap trays; on the Lite and Premium harnesses the tracker sits under a polyester strap that you snug down.
 

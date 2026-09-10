@@ -26,6 +26,14 @@ The three standard sets ship with identical contents apart from the tracker coun
 
 Straps are 30 mm wide; the current strap pack uses narrower 25 mm straps for feet and ankles. Assembly is covered in [Basic Straps & Trays](/straps/basic-straps/).
 
+![A full strap set laid out and labelled: chest, hip, two foot, two ankle, two upper arm and two thigh straps, next to the placement sticker sheet](../../../assets/infographics/strap-lengths.jpg)
+
+*Infographic by [Spazzwan](https://imgur.com/a/PCYz9Zw), used with permission.*
+
+| Tracker in a tray on a strap | Chest harness tracker mount | 30 mm tray |
+|---|---|---|
+| ![IBIS tracker in a mounting tray on an assembled basic strap](../../../assets/photos/basic-strap-tracker-front.webp) | ![Square chest-harness mount with a two-prong fork](../../../assets/photos/chest-mount-ibis.webp) | ![30 mm mounting tray](../../../assets/photos/tray-30mm.webp) |
+
 :::note[What each set covers]
 **Core (6):** chest, hip, both thighs, both ankles. **Advanced (8):** Core + both feet. **Full Body (10):** Advanced + both upper arms.
 :::
@@ -69,5 +77,5 @@ If you added an upgrade kit to your order, it ships in its own bag:
 Trackers ship near fully charged, but a button can get pressed in transit and wake a tracker up. It's normal for one or two to need a top-up before first use. See [Charging](/charging-and-battery/charging/).
 
 :::note
-Photos of each part will land here soon. If you're not sure which piece is which, ask in the [Discord](https://discord.gg/vyrovr) — someone will point it out.
+If you're not sure which piece is which, ask in the [Discord](https://discord.gg/vyrovr) — someone will point it out.
 :::

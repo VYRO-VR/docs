@@ -7,11 +7,17 @@ Every standard IBIS set (and the Lite Edition, the Foot Tracker Upgrade Kit, and
 
 If you have a Premium set or bought a Comfort Strap Bundle, see [Comfort / Premium Straps](/straps/comfort-strap/) instead.
 
+![An IBIS tracker seated in a mounting tray on an assembled basic strap, with the quick-release hook clipped](../../../assets/photos/basic-strap-tracker-front.webp)
+
 ## What's in a strap
 
 - 1 × **hook-and-loop strap** — silicone-backed elastic, 30 mm wide (25 mm for the foot and ankle straps in the current pack). Lengths: 30 cm ankle/foot/arm, 45 cm thigh, 110 cm hip
-- 1 × **mounting tray** — the rectangular plastic frame the tracker slides into
+- 1 × **mounting tray** — the square plastic frame the tracker slides into. There are two widths to match the straps: a **30 mm tray** with a single wide slot, and a **25 mm tray** with three slots for the narrower foot and ankle straps
 - 1 × **quick-release hook** — the small open hook that lets you unclip the strap without undoing the velcro
+
+| 30 mm tray | 25 mm tray | Quick-release hook |
+|---|---|---|
+| ![30 mm mounting tray: a square frame with a single wide strap slot and a notch for the USB-C port](../../../assets/photos/tray-30mm.webp) | ![25 mm mounting tray: a square frame with three narrower strap slots](../../../assets/photos/tray-25mm.webp) | ![Quick-release hook: a small rectangular loop with a hooked lip](../../../assets/photos/hook.webp) |
 
 The chest tracker doesn't use a strap; it clips onto the [chest harness mount](/straps/chest-harness/).
 
@@ -24,6 +30,10 @@ The chest tracker doesn't use a strap; it clips onto the [chest harness mount](/
 5. **Slide the tracker into the tray with the USB-C port facing down, into the tray.** The tracker can technically sit either way, but port-down keeps the button reachable and matches the orientation used throughout these docs.
 
 If you've assembled it correctly, the strap is a loop with the tray on the outside, silicone against your skin, and a hook at one end for quick release.
+
+| Tray end | Hook end |
+|---|---|
+| ![Assembled strap seen from the tray end, strap threaded through the tray slots, silicone wave grip on the inside](../../../assets/photos/basic-strap-tray-end.webp) | ![Assembled strap from the side, quick-release hook clipped through the loop and velcro tail folded back](../../../assets/photos/basic-strap-side.webp) |
 
 ## Wear the strap
 

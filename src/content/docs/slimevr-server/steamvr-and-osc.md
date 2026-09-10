@@ -45,6 +45,12 @@ Pick one:
 
 Upstream reference: [SlimeVR OSC information](https://docs.slimevr.dev/server/osc-information.html).
 
+The whole flow on a Meta Quest, from finding the headset's IP to enabling OSC in VRChat's radial menu:
+
+![Quest standalone OSC walkthrough: find the headset IP in Wi-Fi settings, enable VRChat OSC Trackers in SlimeVR and enter the IP, turn on the trackers you own, enable OSC in VRChat's radial menu, and turn on Allow Sending Head and Wrist VR Tracking OSC Data](../../../assets/infographics/quest-osc-setup.webp)
+
+*Infographic by [Spazzwan](https://imgur.com/a/PCYz9Zw), used with permission.*
+
 ### Notes
 
 - OSC only works in apps that support it. VRChat is the big one. Many other apps do not.
