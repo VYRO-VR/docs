@@ -9,7 +9,7 @@ If you've never used SlimeVR before, it's worth skimming [How the Trackers Work]
 
 ## 1. Charge the trackers
 
-Drop each tracker into the included **charging dock** with the USB-C port facing down, then plug the dock into any 5V USB source (PC port, hub, or wall charger). Each tracker is current-limited to ~50 mA, so charge speed is the same across any standard 5V source. (Lite Edition kits have no dock — charge each tracker with a USB-C cable instead.)
+Drop each tracker into the included **charging dock** with the USB-C port facing down, then plug the dock into a **USB port on your PC** (or a powered hub). A wall charger is faster, but cheap ones have damaged trackers, so stick with the PC port — see [Charging](/charging-and-battery/charging/). (Lite Edition kits have no dock — charge each tracker with a USB-C cable instead.)
 
 Trackers usually arrive near fully charged, but a button can get pressed in transit, so let them all reach full once before you start. See [Charging](/charging-and-battery/charging/) for details.
 

@@ -7,7 +7,7 @@ IBIS trackers should run 30–50 hours per charge with constant movement, and 50
 
 ## 1. Was it actually fully charged?
 
-Leave it on the dock (or a USB-C cable) for at least 3-4 hours and check the charging LED has gone out before you pull it. Any 5 V USB source charges at the same rate, but a tracker that isn't seated properly in its dock slot may not be charging at all — reseat it, USB-C end down.
+Leave it on the dock (or a USB-C cable) from a PC USB port for at least 3-4 hours and check the charging LED has gone out before you pull it. A tracker that isn't seated properly in its dock slot may not be charging at all — reseat it, USB-C end down.
 
 ## 2. Is it auto-sleeping when you're not moving?
 

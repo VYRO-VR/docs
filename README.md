@@ -44,7 +44,7 @@ Open a PR against `main`. Every page has an "Edit this page" link in the footer.
 - Confirm the unverified LED rows marked in `src/content/docs/trackers/led-codes.md` against current shipping firmware
 - Confirm the exact Stay Aligned menu path in the current SlimeVR Server release (`src/content/docs/firmware/stay-aligned.md`)
 - Pick a final accent color in `src/styles/custom.css`
-- The website's `/setup` guide still says a wall charger charges faster than a PC port; the docs say charge rate is the same on any 5 V source. Align one or the other.
+- The website's `/setup` guide still recommends a wall charger for faster charging; the docs now recommend a PC port because cheap wall chargers have damaged trackers. Update the website to match.
 
 ## License
 
