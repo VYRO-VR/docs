@@ -3,7 +3,7 @@ title: VRChat
 description: Configure VRChat for full-body tracking with IBIS trackers.
 ---
 
-VRChat is the most common game IBIS users play. A few VRChat-specific settings make full-body feel right.
+VRChat is the most common game IBIS users play (ChilloutVR, Resonite, Blade & Sorcery, and anything else that accepts Vive-style trackers work too). A few VRChat-specific settings make full-body feel right.
 
 ## In-game settings
 

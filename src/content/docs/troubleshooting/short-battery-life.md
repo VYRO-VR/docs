@@ -3,11 +3,11 @@ title: Short Battery Life
 description: A tracker is running flat way too quickly.
 ---
 
-IBIS trackers should run 50+ hours per charge. If you're seeing 5-10 hours, something is off. Walk through this.
+IBIS trackers should run 30–50 hours per charge with constant movement, and 50+ is common for social play. If you're seeing 5-10 hours, something is off. Walk through this.
 
 ## 1. Was it actually fully charged?
 
-Charge for at least 3-4 hours on a **wall charger**, not a PC port. A "full" charge from a low-current source may not actually be full.
+Leave it on the dock (or a USB-C cable) for at least 3-4 hours and check the charging LED has gone out before you pull it. Any 5 V USB source charges at the same rate, but a tracker that isn't seated properly in its dock slot may not be charging at all — reseat it, USB-C end down.
 
 ## 2. Is it auto-sleeping when you're not moving?
 
@@ -17,7 +17,7 @@ Hold the button until LED stops. Single-press to boot normally. Re-check battery
 
 ## 3. How old is the tracker?
 
-Lithium batteries lose capacity over time. After 3-5 years of typical use, expect 70-80% of original capacity. A tracker that's been heavily used for a few years legitimately won't go 50 hours anymore — though it should still go 30+.
+Lithium batteries lose capacity over time. After 3-5 years of typical use, expect 70-80% of original capacity. A tracker that's been heavily used for a few years legitimately won't go 50 hours anymore — though it should still go 20+. Spare 120 mAh cells are sold on [vyrovr.com](https://vyrovr.com) if you're comfortable with a battery swap; otherwise ask [support](/support/).
 
 A **brand-new tracker** showing very short life is a different issue — see step 5.
 

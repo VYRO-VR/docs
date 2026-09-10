@@ -7,14 +7,15 @@ The **Foot Tracker Upgrade Kit** adds two trackers and two straps dedicated to f
 
 ## What's in the kit
 
-- 2 × IBIS trackers
-- 2 × basic 30 mm silicone-backed straps
+- 2 × IBIS 2.0 trackers
+- 2 × 30 cm basic silicone-backed straps with trays and hooks (see [Basic Straps & Trays](/straps/basic-straps/)) — these also work for arms
+- Optionally a **Styria receiver**, if you picked the "include receiver" variant
 
-The Foot Tracker Upgrade Kit ships with **basic straps only**, whether or not your order includes a receiver. It does not include comfort/premium straps.
+The Foot Tracker Upgrade Kit ships with **basic straps only**; there is no comfort-strap variant, and Premium sets use basic foot straps too.
 
 ## Pair the new trackers
 
-If purchased with your set, they'll be pre-paired. Otherwise, see [Pairing](/trackers/pairing/).
+Kits ordered **with** a receiver come pre-paired to it. Kits ordered **without** a receiver need to be paired to your existing one, on a **matching firmware version** — see [Pairing](/trackers/pairing/) and [Updating Firmware](/firmware/updating/).
 
 ## Where they go
 

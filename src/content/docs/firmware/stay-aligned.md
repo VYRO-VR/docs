@@ -3,7 +3,7 @@ title: Stay Aligned
 description: Auto-correct yaw drift while you play.
 ---
 
-**Stay Aligned** is a SlimeVR Server feature (0.16.0+) that automatically corrects **yaw drift** while you play. Instead of yaw-resetting every few minutes, the server detects when a tracker's facing direction has drifted and quietly nudges it back.
+**Stay Aligned** is a SlimeVR Server feature that automatically corrects **yaw drift** while you play. Instead of yaw-resetting every few minutes, the server detects when a tracker's facing direction has drifted and quietly nudges it back. It's entirely server-side — it works with any IBIS firmware.
 
 ## What yaw drift is
 
@@ -13,17 +13,17 @@ Yaw drift is the most annoying form of drift because it makes your virtual feet 
 
 ## Enabling it
 
-1. Open the SlimeVR Server
-2. **Settings → Trackers / Drift** (the exact label depends on server version)
-3. Toggle **Stay Aligned** on
+1. Open the SlimeVR Server.
+2. Open **Settings** and find **Stay Aligned**.
+3. Run the **Stay Aligned setup** wizard. It asks you to hold a few poses (standing relaxed, sitting, lying down) so the server learns what "aligned" looks like for you, then turns the feature on.
 
-That's it. There's no per-tracker config; the server applies it across all paired trackers.
+There's no per-tracker config; the server applies it across all trackers.
 
 ## What changes
 
-- You'll yaw-reset less often. Most users go from every 10 minutes to once per session or less.
+- You'll yaw-reset far less often. Most users go from every 10–60 minutes to once per session or less.
 - Trackers feel "stickier" in the right direction.
-- No latency cost — the corrections happen at idle moments.
+- No latency cost — the corrections are gradual and happen during normal play.
 
 ## What doesn't change
 
@@ -33,9 +33,9 @@ That's it. There's no per-tracker config; the server applies it across all paire
 
 ## Requirements
 
-- SlimeVR Server **0.16.0 or newer**
-- Firmware that supports it (recent IBIS firmware does; check Discord for older units)
+- SlimeVR Server **0.16.0 (July 2025) or newer** — every current release qualifies. Update the server if yours predates it.
+- No tracker firmware requirement.
 
 ## See also
 
-Original SlimeVR write-up from the maintainers: [SlimeVR 0.16 Stay Aligned release notes](https://vyrovr.com/blogs/news/slimevr-server-update-introduces-stay-aligned) (mirrored on VYRO VR's blog).
+VYRO VR's write-up of the release: [SlimeVR Server Update Introduces "Stay Aligned"](https://vyrovr.com/blogs/news/slimevr-server-update-introduces-stay-aligned).

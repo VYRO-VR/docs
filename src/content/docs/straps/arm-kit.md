@@ -3,16 +3,19 @@ title: Arm Tracker Upgrade Kit
 description: Add upper-arm tracking to a Core or Advanced IBIS set.
 ---
 
-The **Arm Tracker Upgrade Kit** adds two trackers and two basic straps for upper-arm tracking. Adding it to a Core (6) or Advanced (8) IBIS set gets you close to the coverage of a Full Body (10) set — but not identical: the 6 set in particular doesn't include foot trackers, so feet are still uncovered unless you also add the [Foot Tracker Upgrade Kit](/straps/foot-kit/).
+The **Arm Tracker Upgrade Kit** adds two trackers and two arm straps for upper-arm tracking. Adding it to an Advanced (8) set gives you exactly the coverage of a Full Body (10) set. Adding it to a Core (6) set gives you arms but still no feet — add the [Foot Tracker Upgrade Kit](/straps/foot-kit/) for those.
 
 ## What's in the kit
 
-- 2 × IBIS trackers
-- 2 × basic 30 mm silicone-backed straps
+- 2 × IBIS 2.0 trackers
+- 2 × **VYRO VR comfort arm straps** (the default variant), or 2 × 30 cm basic straps with trays and hooks if you chose the **Basic Arm Strap** variant
+- Optionally a **Styria receiver**, if you picked the "include receiver" variant
+
+If you already have an IBIS receiver, buy the no-receiver variant. If you're adding IBIS arm trackers to a set of official SlimeVR Wi-Fi trackers, you need the variant with the receiver.
 
 ## Pair the new trackers
 
-The kit ships pre-paired to your existing receiver as long as you ordered it together with your set. If you bought it later, you may need to pair manually — see [Pairing](/trackers/pairing/).
+Kits ordered **with** a receiver come pre-paired to that receiver. Kits ordered **without** a receiver need to be paired to your existing one, and the trackers must be on the **same firmware version** as that receiver — see [Pairing](/trackers/pairing/) and [Updating Firmware](/firmware/updating/).
 
 ## Where they go
 
@@ -30,4 +33,4 @@ Arms are the second biggest tracking improvement after lower-body (lower body al
 
 ## When to skip them
 
-If you're only doing standing rhythm games or seated experiences, arm trackers add little. Save your money for foot trackers or a premium strap upgrade instead.
+If you're only doing standing rhythm games or seated experiences, arm trackers add little. Save your money for foot trackers or a comfort strap upgrade instead.

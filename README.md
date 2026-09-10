@@ -39,12 +39,12 @@ Open a PR against `main`. Every page has an "Edit this page" link in the footer.
 
 ## TODO — items needing VYRO input
 
-- Replace `src/assets/logo.svg` placeholder with the real VYRO logo
-- Replace `public/og-image.png` placeholder
-- Drop product photos into `src/assets/trackers/` and link them from the relevant pages
-- Confirm or correct the button-press table on `src/content/docs/trackers/pairing.md` against current shipping firmware
-- Fill in premium-strap specifics in `src/content/docs/straps/premium-strap.md`
+- Drop product photos into `src/assets/trackers/` and link them from the relevant pages (what-you-got, basic-straps, comfort-strap, chest-harness, receiver)
+- Add a "which receiver do I have" photo set (HolyIOT / Styria / VYRO VR Receiver) to `src/content/docs/receiver/installing.md`
+- Confirm the unverified LED rows marked in `src/content/docs/trackers/led-codes.md` against current shipping firmware
+- Confirm the exact Stay Aligned menu path in the current SlimeVR Server release (`src/content/docs/firmware/stay-aligned.md`)
 - Pick a final accent color in `src/styles/custom.css`
+- The website's `/setup` guide still says a wall charger charges faster than a PC port; the docs say charge rate is the same on any 5 V source. Align one or the other.
 
 ## License
 

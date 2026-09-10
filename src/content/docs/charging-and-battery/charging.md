@@ -5,15 +5,15 @@ description: How to charge IBIS trackers and use the charging dock.
 
 ## The charging dock
 
-Your kit includes a **USB-C 10-port charging dock**. It powers up to 10 trackers at once and keeps them organized between sessions.
+Standard and Premium IBIS sets include a **10-port USB-C charging dock**. It powers up to 10 trackers at once and keeps them organized between sessions. (The Lite Edition doesn't include one — see [Charging a single tracker](#charging-a-single-tracker) below, or buy the dock separately from [vyrovr.com](https://vyrovr.com).)
 
 ### How to use it
 
 1. **Drop each tracker into a port**, USB-C end down. The dock's port engages with the tracker's USB-C automatically.
-2. **Plug the dock into any 5V USB source** — a PC USB port, a USB hub, or a 5V wall charger all work. Each tracker is current-limited to ~50 mA, so charge time is the same regardless of which 5V source you use.
+2. **Plug the dock into any 5V USB source** with the included USB-A to USB-C cable — a PC USB port, a USB hub, or a 5V wall charger all work. Each tracker is current-limited to ~50 mA, so charge time is the same regardless of which 5V source you use.
 3. **Wait until each tracker's charging LED turns off** (varies by firmware; some show steady, some pulse).
 
-A full charge from empty takes a few hours. From half-full, much less.
+A full charge from empty takes a few hours (the cell is 120 mAh). From half-full, much less.
 
 ## Any 5V USB source works
 
@@ -29,7 +29,7 @@ If you don't want to set up the dock, you can charge any individual tracker with
 
 ## How often to charge
 
-50+ hours of battery means most users charge once every few sessions. A weekly top-up is a good default.
+30–50+ hours of battery means most users charge once every few sessions. A weekly top-up is a good default. The chest tracker tends to run down first because breathing keeps it awake.
 
 Trackers auto-sleep after 15 minutes of inactivity, so leaving them strapped to your body during a quick bathroom break doesn't drain them.
 

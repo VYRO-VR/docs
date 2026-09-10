@@ -3,9 +3,9 @@ title: Drift & Resets
 description: Avatar facing the wrong way, feet wandering, body misaligned — fix drift.
 ---
 
-Drift is normal in any inertial tracking system, including SlimeVR. The question is "how often is it bad enough to be noticeable?" — and the answer should be "rarely, with a yaw reset now and then."
+Drift is normal in any inertial tracking system, including SlimeVR. The question is "how often is it bad enough to be noticeable?" — and the answer should be "a yaw reset every ~10 minutes if you're dancing hard, around an hour or more if you're walking and socialising."
 
-If you find yourself resetting constantly, something deeper is off.
+If you find yourself resetting every couple of minutes, something deeper is off.
 
 ## Quick checklist
 
@@ -26,11 +26,11 @@ Mounting on those trackers is wrong. Re-run [Mounting Calibration](/slimevr-serv
 
 ### "My avatar is leaning forward / hunched"
 
-Hip tracker is mounted too high (in the small of your back rather than on the lower back) or rotated wrong. Re-check placement on [Wearing Trackers](/straps/wearing-trackers/).
+The hip tracker has shifted or rotated since mounting calibration, or your torso proportions are off. Re-check placement on [Wearing Trackers](/straps/wearing-trackers/), re-run mounting calibration, then AutoBone.
 
 ### "One leg is drifting much faster than the other"
 
-A single tracker may have a hardware quirk. Try swapping its body-part assignment with a different tracker (e.g., move the left-thigh tracker to right-thigh). If the drift follows the tracker, that tracker is the problem — reach out via [support](/support/).
+A single tracker's gyro bias may have wandered. Run **side calibration** on it — two button presses with the tracker resting on a flat surface, wait for the four rapid flashes (see [IBIS Overview](/trackers/ibis-overview/#side-calibration-2-presses)). If that doesn't help, swap its body-part assignment with a different tracker (e.g., move the left-thigh tracker to right-thigh). If the drift follows the tracker, that tracker is the problem — reach out via [support](/support/).
 
 ### "Drift gets bad when I do fast turns"
 

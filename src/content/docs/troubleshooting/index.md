@@ -37,6 +37,6 @@ If something isn't working, find the closest symptom below and follow the link. 
 
 [Discord](https://discord.gg/vyrovr) — easiest way to get a hand. Tell us:
 
-1. Which kit you have (Core / Advanced / Full Body)
+1. Which kit you have (Core / Advanced / Full Body / Lite / Premium) and which receiver
 2. What you tried
 3. A short video or photo of the symptom if relevant
