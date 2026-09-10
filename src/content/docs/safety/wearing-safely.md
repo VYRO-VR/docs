@@ -29,7 +29,7 @@ See [Wearing Trackers](/straps/wearing-trackers/) for body-part-specific placeme
 ## Other things to watch
 
 - **Strap migration during long sessions:** if a strap slowly slides down your leg during play, you'll find it loose at the end. Re-tighten between songs/levels, or move it up to a wider part of the muscle.
-- **Sweat:** silicone tracker trays grip well, but a sweaty thigh will eventually slide. Wipe down between intense sessions.
+- **Sweat:** silicone-backed straps grip well, but a sweaty thigh will eventually slide. Wipe down between intense sessions, and machine-wash the straps cold when they need it (trackers out first).
 - **Hair:** velcro picks up arm hair. Wear long sleeves or a thin underlayer if it bothers you.
 
 ## Children

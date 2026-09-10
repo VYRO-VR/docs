@@ -28,16 +28,18 @@ Open the SlimeVR window. It should list connected trackers in real time. If the 
 
 Hold the button to power off. Single-press to power back on. Wait ten seconds.
 
-This fixes most "stuck in a weird state" issues, including trackers that have entered pairing mode by accident.
+This fixes most "stuck in a weird state" issues, including trackers that have entered pairing mode by accident (LED flashing once per second — a single press also exits it).
 
 ## 5. Re-pair it
 
 If the tracker has somehow forgotten its pairing (or you're using a new receiver), follow the [Pairing](/trackers/pairing/) procedure end-to-end. Brief version:
 
-1. Open **nRF Connect for Desktop → Serial Terminal**, connect to the receiver's serial port, and run `pair`.
+1. Put the receiver into pairing mode — press the button on a VYRO VR Receiver, or send `pair` from **nRF Connect for Desktop → Serial Terminal** / SmolSlimeConfigurator on a HolyIOT or Styria receiver.
 2. On the tracker, press the button **3 times** quickly — LED starts blinking once per second.
-3. Wait for the receiver to log an `esb_event: Added device …` line. The tracker should appear in the SlimeVR list.
-4. Run `exit` in the Serial Terminal.
+3. Wait for the LED to stop blinking. The tracker should appear in the SlimeVR list.
+4. Exit pairing mode (button again, or `exit`).
+
+**If it refuses to pair**, the tracker and receiver are almost certainly on **different firmware versions**. This is common after buying a replacement receiver or a no-receiver upgrade kit. Update them to the same version — see [Updating Firmware](/firmware/updating/).
 
 ## 6. Range check
 

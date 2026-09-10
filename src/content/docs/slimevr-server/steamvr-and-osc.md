@@ -27,24 +27,34 @@ See [Trackers Not Showing in SteamVR](/troubleshooting/steamvr-not-showing/).
 
 ## OSC (Quest standalone, Pico, etc.)
 
-If you play standalone on a Quest or Pico without a PC, you can still use IBIS trackers via **OSC**, which is what VRChat-on-Quest accepts.
+If you play standalone on a Quest or Pico without PCVR, you can still use IBIS trackers via **OSC**, which is what VRChat-on-Quest accepts. You do **not** need a VR-capable PC — the SlimeVR Server is light enough for any basic laptop, and it also runs on Android.
 
-### The setup
+### Where the server runs
 
-- The trackers and the receiver still plug into a **PC on the same network** as your headset
-- The SlimeVR Server runs on the PC
-- The server broadcasts tracker data over OSC to the headset's IP address
+Pick one:
+
+- **A laptop or desktop on the same Wi-Fi as the headset.** Receiver plugs into the laptop as usual. This is the most common setup.
+- **An Android phone.** Install the SlimeVR Server Android app; plug the receiver into the phone with a **USB-A-female-to-USB-C (OTG) adapter** (not included).
+- **The headset itself.** The Android app also runs on Quest. Plug the receiver into the headset's USB-C port via the same OTG adapter, and use `127.0.0.1` as the OSC address.
 
 ### Configure
 
-1. Find your headset's IP address (in VRChat: Settings → OSC → check the listening address)
-2. In SlimeVR Server, open **Settings → OSC → VRChat**. Toggle on, paste in the headset IP, set the port (default 9000).
-3. In VRChat on the headset, enable OSC trackers in Settings.
-4. Re-launch VRChat. You'll now have trackers in your standalone session.
+1. In SlimeVR Server, open **Settings → OSC → VRChat OSC Trackers** and enable it. Set the address to your headset's IP (Quest: Quick Settings → Wi-Fi → your network → the arrow icon shows the IP), or `127.0.0.1` if the server is running on the headset. Leave the port at the default (9000).
+2. In VRChat on the headset, open the radial menu → **Options → OSC** and enable it.
+3. Walk to a mirror, open the quick menu, and press **Calibrate FBT** in a T-pose; then do a full reset on the server.
+
+Upstream reference: [SlimeVR OSC information](https://docs.slimevr.dev/server/osc-information.html).
+
+The whole flow on a Meta Quest, from finding the headset's IP to enabling OSC in VRChat's radial menu:
+
+![Quest standalone OSC walkthrough: find the headset IP in Wi-Fi settings, enable VRChat OSC Trackers in SlimeVR and enter the IP, turn on the trackers you own, enable OSC in VRChat's radial menu, and turn on Allow Sending Head and Wrist VR Tracking OSC Data](../../../assets/infographics/quest-osc-setup.webp)
+
+*Infographic by [Spazzwan](https://imgur.com/a/PCYz9Zw), used with permission.*
 
 ### Notes
 
 - OSC only works in apps that support it. VRChat is the big one. Many other apps do not.
-- Latency on standalone-via-OSC is higher than PCVR. Acceptable for VRChat, not great for competitive rhythm games.
+- Latency on standalone-via-OSC is a little higher than PCVR. Acceptable for VRChat, not great for competitive rhythm games.
+- Reset hotkeys still work on the machine running the server — see [Resets](/slimevr-server/resets/). If the server is on the headset, use the tracker button (single press) for resets.
 
 For deeper OSC docs and edge cases, see the upstream [SlimeVR OSC page](https://docs.slimevr.dev/server/osc-information.html).

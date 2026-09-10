@@ -3,7 +3,7 @@ title: Range & Placement
 description: Get the most out of your receiver's wireless range.
 ---
 
-IBIS trackers use a 2.4 GHz radio. 2.4 GHz is short-range and easily blocked by walls, bodies, and metal. Receiver placement is the single biggest lever for tracking reliability.
+IBIS trackers use a low-power 2.4 GHz radio. Unlike Wi-Fi trackers, they don't blast at router power, so the practical range is **about 10 m — your playspace, not your house**. 2.4 GHz is easily blocked by walls, bodies, and metal, so receiver placement is the single biggest lever for tracking reliability.
 
 ## The one thing that matters most
 
@@ -36,7 +36,7 @@ If you have a 5 GHz Wi-Fi option, prefer it for the PC running SlimeVR — this 
 
 ## Effective range
 
-In a typical home playspace (3-4 m radius, drywall), one well-placed receiver covers a full standing roomscale setup with no dropouts. Outdoor or very large rooms can stretch farther.
+In a typical home playspace (3-4 m radius, drywall), one well-placed receiver covers a full standing roomscale setup with no dropouts. The amplified **VYRO VR Receiver** and the Styria receiver have a bit more margin than the older HolyIOT dongle, but all of them want line of sight.
 
 If you see occasional dropouts on the foot trackers when you turn your back to the receiver, that's normal physics — the receiver is shadowed by your body. Raise the receiver higher or move it to a position more in front of you.
 

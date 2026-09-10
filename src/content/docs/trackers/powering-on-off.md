@@ -9,7 +9,7 @@ Press the button **once**. The LED turns on. The tracker starts broadcasting and
 
 ## Power off
 
-**Hold the button** until the LED turns off. The tracker is now fully off and won't drain battery.
+**Hold the button** until the LED fades out. Depending on firmware version the LED either lights solid and then fades, or simply fades. The tracker is now fully off and won't drain battery.
 
 ## Auto-sleep
 
@@ -24,6 +24,8 @@ If a tracker hasn't moved for **about 15 minutes**, it powers itself down automa
 ## "Reset" vs power
 
 A single press while a tracker is **on** sends a **reset** signal (re-zeros rotation, same as a full reset triggered from the SlimeVR window). It does **not** power the tracker off. If you meant to power off, hold the button instead.
+
+A single press also **exits pairing mode** if you triple-pressed by accident (the LED will have been flashing once per second).
 
 ## Powering on the whole set quickly
 

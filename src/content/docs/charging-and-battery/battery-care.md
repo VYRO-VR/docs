@@ -35,7 +35,7 @@ Charge them once every few months if storage runs long. Lithium batteries left f
 
 A "cycle" is a cumulative full charge — not literally counted. Lithium batteries gradually lose capacity over many cycles. For typical use (charge weekly), expect 3-5 years before you'd notice meaningfully shorter sessions.
 
-Capacity loss is gentle and gradual, not sudden. If a tracker goes from 50 hours to 5 hours overnight, something is wrong — see [Short Battery Life](/troubleshooting/short-battery-life.md).
+Capacity loss is gentle and gradual, not sudden. If a tracker goes from 50 hours to 5 hours overnight, something is wrong — see [Short Battery Life](/troubleshooting/short-battery-life/).
 
 ## Safety
 

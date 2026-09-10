@@ -23,7 +23,7 @@ import { Card, CardGrid } from '@astrojs/starlight/components';
 
 <CardGrid stagger>
   <Card title="Quick Start" icon="rocket">
-    The 10-minute path from unboxing to walking around in VR with full-body tracking.
+    The path from unboxing to walking around in VR with full-body tracking, in about 30 minutes.
     [Start here →](/getting-started/quick-start/)
   </Card>
   <Card title="What's in the Box" icon="open-book">
@@ -42,11 +42,13 @@ import { Card, CardGrid } from '@astrojs/starlight/components';
 
 ## Product lines
 
-- **IBIS Core** — 6 trackers, full lower-body tracking
-- **IBIS Advanced** — 8 trackers, lower body + elbows
-- **IBIS Full Body** — 10 trackers, lower body + arms + chest
+- **IBIS Core** — 6 trackers: chest, hip, both thighs, both ankles
+- **IBIS Advanced** — 8 trackers: Core + both feet
+- **IBIS Full Body** — 10 trackers: Advanced + both upper arms
+- **IBIS Lite Edition** — 6 trackers with basic straps and a receiver only (no charging dock, no chest harness)
+- **IBIS Premium sets** — Core / Advanced / Full Body with VYRO VR comfort straps in place of the basic straps
 
-All IBIS trackers are SlimeVR-compatible and use the nRF 2.4 GHz wireless protocol via a USB receiver. They work alongside any standard SlimeVR Wi-Fi tracker and any Vive/Tundra tracker setup.
+All IBIS trackers are SlimeVR-compatible and use the nRF 2.4 GHz wireless protocol via a USB receiver. They work alongside official SlimeVR Wi-Fi trackers and any Vive/Tundra tracker setup in the same SlimeVR Server session. VYRO VR also sells **Styria** trackers, which are a separate nRF-based line; these docs cover IBIS.
 
 ## Need a hand?
 
@@ -56,4 +58,4 @@ If you're stuck, jump into the [VYRO VR Discord](https://discord.gg/vyrovr) — 
 
 The pages on docs.vyrovr.com are **AI-generated** from publicly available SlimeVR documentation (primarily [docs.slimevr.dev](https://docs.slimevr.dev)) and VYRO VR product information from [vyrovr.com](https://vyrovr.com), then reviewed and edited by the VYRO VR team. Some details may still be inaccurate or out of date.
 
-If you spot a discrepancy, **please open an issue or pull request** on the source repository: [github.com/VYRO-VR/vyrovr-docs](https://github.com/VYRO-VR/vyrovr-docs). Every page has an **Edit this page** link in the footer — corrections are welcome.
+If you spot a discrepancy, **please open an issue or pull request** on the source repository: [github.com/VYRO-VR/docs](https://github.com/VYRO-VR/docs). Every page has an **Edit this page** link in the footer — corrections are welcome.

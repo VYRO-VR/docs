@@ -4,6 +4,9 @@ import starlight from '@astrojs/starlight';
 
 export default defineConfig({
   site: 'https://docs.vyrovr.com',
+  redirects: {
+    '/straps/premium-strap/': '/straps/comfort-strap/',
+  },
   integrations: [
     starlight({
       title: 'VYRO VR Docs',
@@ -27,10 +30,12 @@ export default defineConfig({
       customCss: ['./src/styles/custom.css'],
       social: {
         discord: 'https://discord.gg/vyrovr',
-        github: 'https://github.com/VYRO-VR/vyrovr-docs',
+        youtube: 'https://www.youtube.com/channel/UCMEc2Ae1-VYC0SYsQ9qyevg',
+        tiktok: 'https://www.tiktok.com/@vyrovr',
+        github: 'https://github.com/VYRO-VR/docs',
       },
       editLink: {
-        baseUrl: 'https://github.com/VYRO-VR/vyrovr-docs/edit/main/',
+        baseUrl: 'https://github.com/VYRO-VR/docs/edit/main/',
       },
       lastUpdated: true,
       sidebar: [
@@ -62,8 +67,8 @@ export default defineConfig({
         {
           label: 'Straps & Mounting',
           items: [
-            { label: 'Comfort / Premium Strap', slug: 'straps/comfort-strap' },
-            { label: 'Premium Strap (alias)', slug: 'straps/premium-strap' },
+            { label: 'Basic Straps & Trays', slug: 'straps/basic-straps' },
+            { label: 'Comfort / Premium Straps', slug: 'straps/comfort-strap' },
             { label: 'Arm Tracker Upgrade Kit', slug: 'straps/arm-kit' },
             { label: 'Foot Tracker Upgrade Kit', slug: 'straps/foot-kit' },
             { label: 'Chest Harness', slug: 'straps/chest-harness' },

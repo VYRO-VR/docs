@@ -7,11 +7,16 @@ This is the reference page for **placement**. Get this right and your tracking w
 
 The good news: SlimeVR's mounting calibration is forgiving about exact rotation. As long as the tracker is on the right body part and roughly flat against the limb, the wizard figures out the rest.
 
+![Body placement map: black bands mark the recommended tracker position on the chest, waist, hip, upper arms, upper legs, lower legs and feet; grey bands mark alternatives; yellow arrows show the acceptable range](../../../assets/infographics/placement-map.png)
+
+*Infographic by [Spazzwan](https://imgur.com/a/PCYz9Zw), used with permission.*
+
 ## General rules
 
 1. **Mount trackers where muscle movement won't shift them.** You want the tracker to follow your bones, not your soft tissue. Pick the spot on each limb where flexing the muscle nearby moves the tracker as little as possible.
 2. **Snug, not tight.** A tracker that slides during use will confuse the server every time you move.
 3. **USB port faces down** (for limb-mounted trackers). This keeps the tracker oriented consistently and makes the button easy to find.
+5. **Use the placement stickers** from the box to label each tracker with its body part, so the same tracker goes to the same place every session.
 4. **Don't worry about perfect rotation.** Mounting calibration handles offsets.
 
 ## Lower body (Core kit and up)
@@ -22,11 +27,11 @@ The good news: SlimeVR's mounting calibration is forgiving about exact rotation.
 - **Orientation:** USB port toward the foot
 - **Tightness:** firm enough that flexing the quad doesn't shift it
 
-### Lower leg / shin
+### Lower leg / ankle
 
-- **Position:** on the calf, just below the widest part, on a spot that doesn't shift when you flex
+- **Position:** on the lower leg — just above the ankle, or on the calf below its widest part — wherever flexing shifts it least. The 30 cm "ankle" strap in your kit fits either spot. SlimeVR's guide says the ankle tracker can face any direction.
 - **Orientation:** USB port toward the foot
-- **Tightness:** snug; calves shift less than thighs so this is forgiving
+- **Tightness:** snug; lower legs shift less than thighs so this is forgiving
 
 ### Hip / waist
 
@@ -34,7 +39,7 @@ The good news: SlimeVR's mounting calibration is forgiving about exact rotation.
 - **Orientation:** USB port down
 - **Tightness:** the strap goes around the waist; tighten until it doesn't ride up or down when you twist
 
-The lower-back position is correct — **not** the front of the hip. Your spine pivots from the lower back, so that's where the tracker needs to be for the avatar's hip to track yours.
+This is the placement VYRO VR recommends for the hip strap. SlimeVR's upstream guide also allows the front or side at belly-button level — either works as long as you run mounting calibration afterwards and keep it consistent between sessions.
 
 ## Upper body
 
@@ -48,7 +53,7 @@ Per [SlimeVR's guidance](https://docs.slimevr.dev/server/putting-on-trackers.htm
 
 ### Chest
 
-- **Position:** anywhere on or above the chest, via the included [chest harness](/straps/chest-harness/). **Higher is better** — mount toward the upper chest rather than low on the ribs.
+- **Position:** on the chest via the [chest harness](/straps/chest-harness/). **Higher is better** — toward the upper chest, above the bust, not low on the ribs. Keep it consistent between sessions.
 - **Orientation:** USB port down
 
 ## Feet

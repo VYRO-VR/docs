@@ -25,9 +25,21 @@ Stand up straight, arms at your sides, facing forward. Click **Start**. The serv
 
 This is fast, accurate, and almost always what you want.
 
-### Side calibration (per-tracker, from the tracker itself)
+### Manual mounting (per-tracker)
 
-You can also trigger calibration on a single tracker by **double-pressing** its button. The tracker enters a brief calibration window — hold the body part in its neutral pose for a few seconds. Useful for fixing one tracker in the middle of a session without re-running the whole wizard.
+If one tracker is mounted unusually, the Trackers panel lets you set its mounting orientation by hand (front / back / left / right) instead of re-running the automatic routine for everything.
+
+:::note[Not the same as side calibration]
+Double-pressing a tracker's button starts **side calibration**, which is an IMU (gyro-bias) calibration done with the tracker resting on a flat surface. It has nothing to do with mounting orientation. See [IBIS Overview](/trackers/ibis-overview/#side-calibration-2-presses).
+:::
+
+## Foot trackers
+
+Foot trackers get their own mounting pass. Do a **full reset**, then raise your heels onto your toes and trigger **Reset feet mounting** (bind it, or click it in the Trackers panel). Wait until the last second to raise your heels so the rest of your body is still in the neutral pose.
+
+![Raise your heels, then Full Reset followed by Reset Feet Mounting](../../../assets/infographics/feet-mounting-reset.png)
+
+*Infographic by [Spazzwan](https://imgur.com/a/PCYz9Zw), used with permission.*
 
 ## When to re-run mounting calibration
 
@@ -38,7 +50,7 @@ You can also trigger calibration on a single tracker by **double-pressing** its 
 
 ## Things that aren't mounting calibration
 
-- **IMU calibration** (factory-level sensor calibration) — already done at manufacture. Only matters if you replace your IMU, which you can't on IBIS trackers.
+- **IMU / side calibration** — zeroes sensor bias; done at the factory and re-runnable from the tracker button (two presses, tracker on a flat surface). Only needed if one tracker drifts much faster than the rest.
 - **Full reset** — re-zeros rotation but uses the existing mounting offsets. You'll do this many times per session.
 
 For the deep technical version of IMU calibration, see the upstream [SlimeVR IMU calibration page](https://docs.slimevr.dev/server/imu-calibration.html).

@@ -8,7 +8,7 @@ IBIS trackers contain small lithium-polymer batteries. They are safe in normal u
 ## Do
 
 - **Charge at room temperature** (10°C – 30°C ideally; 0°C – 40°C acceptable)
-- **Use a 5V USB power source** — the included dock, a phone wall charger, or a regular USB-C laptop charger that supports 5V
+- **Charge from a PC USB port or a powered USB hub** via the included dock. It's slower than a wall charger, but well-regulated
 - **Charge somewhere visible** the first few times so you'd notice if something went wrong
 - **Store at 50-70% charge** if you won't use them for weeks
 - **Power off trackers before traveling** (hold the button until LED is fully off)
@@ -16,6 +16,7 @@ IBIS trackers contain small lithium-polymer batteries. They are safe in normal u
 ## Don't
 
 - **Don't charge with high-voltage "fast chargers"** (9V/12V profiles). 5V only.
+- **Don't use cheap or no-name wall chargers.** Out-of-spec adapters have damaged trackers. If you must use a wall adapter, use a branded 5 V phone charger.
 - **Don't charge a tracker that's been in the cold or in a hot car** — let it reach room temperature first
 - **Don't store trackers at 0% or 100% for months** — both are stressful for the cell
 - **Don't disassemble trackers.** The battery is inside; opening one risks puncturing the cell

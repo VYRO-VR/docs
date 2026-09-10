@@ -17,14 +17,14 @@ The standard mapping for an IBIS Full Body set:
 
 | Body location | What goes there |
 |---|---|
-| Left foot / Right foot | Foot trackers (if you have the foot kit) |
-| Left ankle / Right ankle | Lower-leg trackers — shin |
+| Left foot / Right foot | Foot trackers (Advanced and Full Body sets, or the foot kit) |
+| Left ankle / Right ankle | Lower-leg trackers |
 | Left upper leg / Right upper leg | Thigh trackers |
-| Hip | Lower-back tracker |
-| Chest | Sternum tracker (via chest harness) |
-| Left upper arm / Right upper arm | Bicep trackers |
+| Hip | Hip strap tracker |
+| Chest | Chest tracker (via chest harness) |
+| Left upper arm / Right upper arm | Upper-arm trackers (Full Body sets, or the arm kit) |
 
-For Core (6) and Advanced (8) you'll skip the upper-arm and/or chest slots.
+Core (6) sets skip the foot and upper-arm slots; Advanced (8) sets skip the upper-arm slots. Every set has a chest tracker (except the Lite Edition, unless you added a harness).
 
 ## Confirming you got it right
 

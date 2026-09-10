@@ -31,28 +31,49 @@ By default, you trigger resets from the SlimeVR Server window. That's fine for s
 
 ### SteamVR bindings (PCVR users)
 
-1. Start SteamVR.
-2. SteamVR menu → **Devices** → **Controller bindings** → pick your controller → **SlimeVR**.
-3. Bind a button (long-press or chord) to **Full reset**.
+1. Start SteamVR with the SlimeVR Server running.
+2. SteamVR menu → **Settings** → **Controllers** → **Show Binding UI** → **Show More Applications** → **SlimeVR-Bindings-Provider**.
+3. Click the **+** next to the button you want, and set one of its inputs (click/touch, or long/held) to **Full reset**.
 4. Bind another to **Yaw reset**.
 5. Optionally bind **Mounting reset** to a longer chord.
 
-Common bindings: hold-the-system-button + thumbstick click, or a double-tap of a face button.
+Common bindings: a long-press of a face button, or a double-tap. Upstream reference: [SlimeVR — Setting up reset bindings](https://docs.slimevr.dev/server/setting-reset-bindings.html).
 
-### Keyboard / Feeder App
+### Keyboard shortcuts
 
-If you're on Quest standalone or want hotkeys for SteamVR, the SlimeVR **Feeder App** lets you bind keyboard shortcuts. Defaults are Ctrl+Alt+Shift combinations. See the Feeder App settings inside the SlimeVR window.
+The server has built-in global hotkeys, which work on any platform and are the usual route on standalone headsets when the server runs on a nearby laptop:
+
+| Default hotkey | Action |
+|---|---|
+| `Ctrl+Alt+Shift+Y` | Full reset |
+| `Ctrl+Alt+Shift+U` | Yaw (quick) reset |
+| `Ctrl+Alt+Shift+I` | Mounting reset |
+| `Ctrl+Alt+Shift+O` | Pause tracking |
+
+Change them under **Settings → Keybindings** in the SlimeVR window (or in `vrconfig.yml`). Tools like OVR Advanced Settings or OVR Toolkit can fire these hotkeys from a controller if you'd rather not use the SteamVR binding UI.
+
+### Tracker button
+
+A single press of any powered-on tracker's button also triggers a **reset**, which is handy when you don't have a controller in hand.
 
 ## Reset etiquette
 
-- Stand straight when you trigger a full reset
+- Stand straight when you trigger a full reset, back straight, legs parallel
+- Feet **5–10 cm apart**, pointing forward — not an A-frame
 - Face the direction you want to be "forward"
 - Don't trigger a reset mid-motion — you'll zero against a weird pose
+- If you can't stand, a kneeling reset with a straight back works too
+
+![Reset posture: legs parallel with knees and feet 10 cm apart (good), legs in an A-frame (bad), keep a straight back, and a kneeling alternative](../../../assets/infographics/reset-pose.jpg)
+
+![Feet spacing for resets and FBT calibration: 5 to 10 cm between the feet](../../../assets/infographics/feet-spacing.webp)
+
+*Infographic by [Spazzwan](https://imgur.com/a/PCYz9Zw), used with permission.*
 
 ## How often should I reset?
 
-- **Yaw reset:** every 5-10 minutes is normal for most users; bind it to an easy button
+- **Yaw reset:** depends on how much you move — every ~10 minutes if you're dancing hard, around an hour or more if you're walking and socialising; bind it to an easy button either way
 - **Full reset:** once per session start, then as needed
 - **Mounting reset:** rarely — only if something feels actively wrong
 
-If you find yourself yaw-resetting constantly, try **Stay Aligned** (server 0.16+) — it auto-corrects yaw drift while you play. See [Stay Aligned](/firmware/stay-aligned/).
+If you find yourself yaw-resetting constantly, turn on **Stay Aligned** — it auto-corrects yaw drift while you play. See [Stay Aligned](/firmware/stay-aligned/).

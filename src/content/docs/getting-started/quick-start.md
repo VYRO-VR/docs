@@ -9,9 +9,9 @@ If you've never used SlimeVR before, it's worth skimming [How the Trackers Work]
 
 ## 1. Charge the trackers
 
-Drop each tracker into the included **charging dock** with the USB-C port facing down, then plug the dock into any 5V USB source (PC port, hub, or wall charger). Each tracker is current-limited to ~50 mA, so charge speed is the same across any standard 5V source.
+Drop each tracker into the included **charging dock** with the USB-C port facing down, then plug the dock into a **USB port on your PC** (or a powered hub). A wall charger is faster, but cheap ones have damaged trackers, so stick with the PC port — see [Charging](/charging-and-battery/charging/). (Lite Edition kits have no dock — charge each tracker with a USB-C cable instead.)
 
-Trackers usually arrive mostly charged, but let them all reach full once before you start. See [Charging](/charging-and-battery/charging/) for details.
+Trackers usually arrive near fully charged, but a button can get pressed in transit, so let them all reach full once before you start. See [Charging](/charging-and-battery/charging/) for details.
 
 ## 2. Install the SlimeVR Server
 
@@ -21,7 +21,7 @@ After install, launch it. You'll see the SlimeVR window with a list of trackers 
 
 ## 3. Plug in the receiver
 
-Take the **USB receiver dongle** and the **USB extension cable** from your kit. Plug the receiver into the extension cable, then the extension into your PC.
+Take the **USB receiver** and the **USB extension cable** from your kit. Plug the receiver into the extension cable, then the extension into your PC. Receivers vary by batch (some are USB-A, the newer VYRO VR Receiver is USB-C) — see [Installing the Receiver](/receiver/installing/) if yours doesn't look like the pictures.
 
 :::caution[Always use the extension cable]
 **Do not plug the receiver directly into your PC.** The receiver is small and its USB connector is fragile — repeatedly plugging it directly into a PC port (especially the back of a tower) puts mechanical stress on the connector and can break it. The included USB extension cable both protects the receiver and dramatically improves wireless range.
@@ -37,7 +37,7 @@ If a tracker doesn't show up after 10 seconds, see [Pairing](/trackers/pairing/)
 
 ## 5. Strap up
 
-Attach each tracker to its strap (the tracker slides into the silicone tray, USB port down). Mount them in roughly the right places — the exact positions are shown in [Wearing Trackers](/straps/wearing-trackers/) — and tighten the straps until they're snug but not painful.
+Assemble each strap — see [Basic Straps & Trays](/straps/basic-straps/) (or [Comfort / Premium Straps](/straps/comfort-strap/) for Premium sets) — and slide each tracker into its tray, USB port down. Mount them in roughly the right places — the exact positions are shown in [Wearing Trackers](/straps/wearing-trackers/) — and tighten the straps until they're snug but not painful. The placement stickers in the box help you keep track of which tracker goes where.
 
 Don't worry about precision yet. The server's mounting calibration will figure out orientation in a few seconds.
 
@@ -57,9 +57,9 @@ Full walkthrough: [First Launch](/slimevr-server/first-launch/).
 With the SlimeVR window still running:
 
 - **PCVR** (Index, Quest Link, Vive, Pimax, etc.) — start SteamVR. SlimeVR's SteamVR driver picks up the trackers automatically.
-- **Quest standalone / standalone Pico** — see [SteamVR & OSC](/slimevr-server/steamvr-and-osc/).
+- **Quest standalone / standalone Pico** — the server can run on a laptop, a phone, or the headset itself; see [SteamVR & OSC](/slimevr-server/steamvr-and-osc/).
 
-Put your headset on, stand straight, and press your **full reset** keybind (default: trigger a reset from the SlimeVR window). You're tracked.
+Put your headset on, stand straight, and trigger a **full reset** (from the SlimeVR window, or the default `Ctrl+Alt+Shift+Y` hotkey). You're tracked.
 
 ## 8. Set up reset bindings
 

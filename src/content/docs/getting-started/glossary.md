@@ -21,11 +21,11 @@ A VYRO VR-made, SlimeVR-compatible tracker using the nRF 2.4 GHz wireless protoc
 
 ## nRF
 
-Nordic Semiconductor's family of wireless microcontrollers. IBIS trackers are built around the nRF52.
+Nordic Semiconductor's family of wireless microcontrollers. IBIS trackers and receivers are built around the nRF52840.
 
 ## Receiver / dongle
 
-The small USB stick that listens for tracker radio traffic and relays it to the SlimeVR Server. Required for IBIS trackers.
+The small USB device that listens for tracker radio traffic and relays it to the SlimeVR Server. Required for IBIS trackers. VYRO VR has shipped HolyIOT, Styria, and VYRO VR Receiver designs; all behave the same.
 
 ## IMU
 
@@ -61,11 +61,11 @@ Re-runs mounting calibration on the fly. Use if a tracker shifted on your body o
 
 ## Stay Aligned
 
-A SlimeVR Server 0.16+ feature that automatically corrects yaw drift while you play, reducing how often you need yaw resets.
+A SlimeVR Server feature (since 0.16.0, July 2025) that automatically corrects yaw drift while you play, reducing how often you need yaw resets.
 
 ## DFU mode
 
-"Device Firmware Update" mode. A special boot state on the tracker for re-flashing firmware. Triggered by 4-5 button presses — don't do this unless you're updating firmware.
+"Device Firmware Update" mode. A special boot state where the tracker shows up as a small USB drive so you can copy new firmware onto it. Triggered by 4-5 button presses — don't do this unless you're updating firmware.
 
 ## OSC
 
@@ -75,6 +75,14 @@ Open Sound Control — the message protocol VRChat (and some other apps) use to 
 
 The piece of software that exposes SlimeVR trackers to SteamVR as virtual Vive-style trackers. Installed automatically by the SlimeVR Server.
 
+## Side calibration
+
+A short IMU calibration you trigger from the tracker itself (two button presses) with the tracker resting on a flat surface. Removes gyro bias so the tracker drifts less. Not the same thing as mounting calibration.
+
+## Smol Slime
+
+The SlimeVR community's name for small nRF-based trackers and the firmware they run. IBIS trackers are Smol Slimes, so the [Smol Slimes docs](https://docs.slimevr.dev/smol-slimes/) apply to them.
+
 ## Feeder app
 
-A separate utility that forwards data from another tracking system (like a Vive lighthouse setup) into SlimeVR for hybrid use. Not needed for IBIS-only setups.
+A separate utility that forwards SteamVR controller and headset positions into SlimeVR for hybrid use. Not needed for IBIS-only setups, and not where reset hotkeys live (those are in the server itself).

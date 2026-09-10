@@ -25,7 +25,7 @@ IBIS trackers don't use Wi-Fi; they use the receiver dongle. If the wizard insis
 
 ### 2. Connect your trackers
 
-The wizard will ask you to "turn on your trackers." Press the button once on each tracker. They light up and appear in the wizard's tracker list. Confirm the count matches your kit (6 for Core, 8 for Advanced, 10 for Full Body).
+The wizard will ask you to "turn on your trackers." Press the button once on each tracker. They light up and appear in the wizard's tracker list. Confirm the count matches your kit (6 for Core and Lite, 8 for Advanced, 10 for Full Body, plus any upgrade kits).
 
 ### 3. Assign each tracker to a body part
 

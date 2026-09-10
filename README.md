@@ -39,12 +39,11 @@ Open a PR against `main`. Every page has an "Edit this page" link in the footer.
 
 ## TODO — items needing VYRO input
 
-- Replace `src/assets/logo.svg` placeholder with the real VYRO logo
-- Replace `public/og-image.png` placeholder
-- Drop product photos into `src/assets/trackers/` and link them from the relevant pages
-- Confirm or correct the button-press table on `src/content/docs/trackers/pairing.md` against current shipping firmware
-- Fill in premium-strap specifics in `src/content/docs/straps/premium-strap.md`
+- Add photos of the comfort (R2) straps and the three receiver designs; `src/assets/photos/` has the basic-strap and harness-mount shots already
+- Confirm the unverified LED rows marked in `src/content/docs/trackers/led-codes.md` against current shipping firmware
+- Confirm the exact Stay Aligned menu path in the current SlimeVR Server release (`src/content/docs/firmware/stay-aligned.md`)
 - Pick a final accent color in `src/styles/custom.css`
+- The website's `/setup` guide still recommends a wall charger for faster charging; the docs now recommend a PC port because cheap wall chargers have damaged trackers. Update the website to match.
 
 ## License
 
