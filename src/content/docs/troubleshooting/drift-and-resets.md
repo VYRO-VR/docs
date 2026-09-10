@@ -11,7 +11,7 @@ If you find yourself resetting every couple of minutes, something deeper is off.
 
 1. **Did you full-reset at session start?** Stand straight, face forward, trigger full reset. Don't skip this.
 2. **Is Stay Aligned on?** See [Stay Aligned](/firmware/stay-aligned/). It eliminates most yaw drift automatically.
-3. **Are your body proportions correct?** Wrong torso length looks like drift even though it isn't. Re-run [AutoBone](/slimevr-server/body-proportions/).
+3. **Are your body proportions correct?** Wrong torso length looks like drift even though it isn't. Re-check your height in [Body Proportions](/slimevr-server/body-proportions/).
 4. **Did you run mounting calibration?** Without it, the server is guessing at orientation. Re-run [Mounting Calibration](/slimevr-server/mounting-calibration/).
 
 ## Common symptoms
@@ -26,11 +26,13 @@ Mounting on those trackers is wrong. Re-run [Mounting Calibration](/slimevr-serv
 
 ### "My avatar is leaning forward / hunched"
 
-The hip tracker has shifted or rotated since mounting calibration, or your torso proportions are off. Re-check placement on [Wearing Trackers](/straps/wearing-trackers/), re-run mounting calibration, then AutoBone.
+The hip tracker has shifted or rotated since mounting calibration, or your torso proportions are off. Re-check placement on [Wearing Trackers](/straps/wearing-trackers/), re-run mounting calibration, then re-check your [body proportions](/slimevr-server/body-proportions/).
 
 ### "One leg is drifting much faster than the other"
 
 A single tracker's gyro bias may have wandered. Run **side calibration** on it — two button presses with the tracker resting on a flat surface, wait for the four rapid flashes (see [IBIS Overview](/trackers/ibis-overview/#side-calibration-2-presses)). If that doesn't help, swap its body-part assignment with a different tracker (e.g., move the left-thigh tracker to right-thigh). If the drift follows the tracker, that tracker is the problem — reach out via [support](/support/).
+
+If yaw drift on one tracker persists after side calibration, [Preflight](/firmware/updating/#install-vyro-vr-preflight)'s **Gyro Sensitivity** page can measure that tracker's gyro scale error (you spin it a set number of turns on each axis) and write a correction to it.
 
 To work out *which* tracker is misbehaving without guessing, isolate it with a movement that only that tracker should respond to: lift a knee (upper leg), swing the lower leg (ankle), or tilt a foot. Your hip tracker should not move during any of them.
 

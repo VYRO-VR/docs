@@ -20,6 +20,20 @@ Trackers and the receiver must run the **same firmware version** to pair instant
 
 The receiver has its own radio ID. When a tracker is in pairing mode, it looks for a receiver that is also in pairing mode and binds to it. Once paired, the tracker remembers that receiver and ignores all others.
 
+## Easiest: Preflight
+
+[VYRO VR Preflight](/firmware/updating/#install-vyro-vr-preflight), VYRO's desktop setup app, has a **Pair New Trackers** page that does the receiver side for you:
+
+1. Open Preflight with the receiver plugged in (via its extension cable). Choose **Pair New Trackers**.
+2. Preflight finds the receiver and puts it into pairing mode — the top-right indicator shows **Pairing mode on**.
+3. Press the tracker's button **3 times**. Its LED flashes **blue once per second**.
+4. Preflight shows **New tracker paired** with a running count. Repeat for any other trackers.
+5. Click **Done**. Preflight takes the receiver back out of pairing mode.
+
+If nothing pairs after 20 seconds, Preflight tells you to check the LED and press the button 3 times again. If it still won't pair, the tracker and receiver are on different firmware builds — see [Updating Firmware](/firmware/updating/).
+
+The rest of this page is the manual route, which works without Preflight.
+
 ## Step 1: Put the receiver into pairing mode
 
 How you do this depends on which receiver you have — see [Installing the Receiver](/receiver/installing/) to identify it.
@@ -46,7 +60,7 @@ This follows the official [SlimeVR Smol Pairing & Calibration guide](https://doc
 
 ## Step 2: Put the tracker into pairing mode
 
-On the tracker, **press the button 3 times** in quick succession. The LED starts flashing **once per second**, indicating it's broadcasting for pairing.
+On the tracker, **press the button 3 times** in quick succession. The LED starts flashing **blue once per second**, indicating it's broadcasting for pairing.
 
 ## Step 3: Wait for the pair to register
 
@@ -94,7 +108,7 @@ Pick up the tracker and physically rotate it. The matching entry in the SlimeVR 
 ## When pairing fails
 
 - **Tracker LED keeps blinking once per second:** The receiver isn't in pairing mode. Press the receiver button again, or re-run `pair`.
-- **Tracker blinks, receiver is in pairing mode, nothing happens:** Firmware versions probably don't match. Run `info` on the receiver, check the tracker's version, and update whichever is behind — see [Updating Firmware](/firmware/updating/).
+- **Tracker blinks, receiver is in pairing mode, nothing happens:** Firmware builds probably don't match. Preflight's **Update Firmware** page shows both; update whichever is behind — see [Updating Firmware](/firmware/updating/).
 - **You put a tracker into pairing mode by accident:** Press the button once (or hold to power off, then single-press) to leave pairing mode.
 - **`pair` command does nothing in the terminal:** Confirm you're connected to the receiver's serial port (not another USB serial device) and that you pressed Enter after typing the command.
 - **Tracker pairs but doesn't appear in SlimeVR:** Check the [SlimeVR Server window's connection status](/slimevr-server/first-launch/) and the [receiver troubleshooting page](/troubleshooting/receiver-not-detected/).

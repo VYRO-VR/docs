@@ -72,6 +72,6 @@ If your avatar's height or floor is off on Quest, reset the headset's floor leve
 
 ## Common VRChat-specific gotchas
 
-- **"My feet are crossing through each other"** — bone proportions are off. Re-run [AutoBone](/slimevr-server/body-proportions/).
+- **"My feet are crossing through each other"** — bone proportions are off. Re-check your height and re-apply [Body Proportions](/slimevr-server/body-proportions/).
 - **"My avatar is leaning forward"** — your hip tracker is too high or rotated wrong. Check [Wearing Trackers](/straps/wearing-trackers/) and re-run mounting calibration.
 - **"My head moves but body doesn't follow"** — SteamVR isn't seeing the trackers. See [Trackers Not Showing in SteamVR](/troubleshooting/steamvr-not-showing/).

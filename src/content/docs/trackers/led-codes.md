@@ -7,13 +7,14 @@ The IBIS tracker has a single LED that uses different on/off patterns to communi
 
 ## Button-driven states
 
-These are the patterns VYRO VR documents for current shipping firmware (see the [vyrovr.com setup guide](https://vyrovr.com/setup)):
+These are the patterns for VYRO VR's current shipping firmware:
 
 | Pattern | Meaning |
 |---|---|
 | LED comes on after a single press | Powered on and broadcasting |
-| Flashing **once per second** | **Pairing mode** (3 presses) — see [Pairing](/trackers/pairing/). A single press, or a power-cycle, exits it |
-| One flash → **solid** → **4 rapid flashes** | **Side calibration** (2 presses) in progress, then succeeded. Keep the tracker still on a flat surface until the 4 flashes |
+| Short **purple** flash on a single press while on | **Reset** sent |
+| Flashing **blue once per second** | **Pairing mode** (3 presses) — see [Pairing](/trackers/pairing/). A single press, or a power-cycle, exits it |
+| Cycling through **rainbow** colours | **Side calibration** (2 presses) in progress. Keep the tracker still on a flat surface until the cycling stops. Older firmware shows one flash → solid → 4 rapid flashes instead |
 | Solid then fades out, **or** just fades out, when you hold the button | Powering off (which one you see depends on firmware version) |
 | Slow fade / pulse, and a USB drive appears when plugged into a PC | **DFU mode** (4–5 presses) — see [DFU Mode](/firmware/dfu-mode/) |
 

@@ -11,6 +11,10 @@ The chest tracker doesn't use a strap and tray. It clips onto a **mount** on a h
 | **Chest Harness Lite** | Sold separately; bundled free with standard sets during promotions | Neoprene, adjustable on both sides and at the shoulders, quick-release buckle, 25 mm polyester tracker mount |
 | **VYRO VR Chest Harness (Premium)** | Premium sets and Comfort Strap Bundles | As Lite, plus **back-mounting** support; fits up to 135 cm around the chest |
 
+| Standard chest harness | Chest Harness Lite | Premium chest harness |
+|---|---|---|
+| ![Standard chest harness: black elastic straps with a GoPro-style tracker mount on the front plate](../../../assets/shop/chest-harness-standard.webp) | ![Chest Harness Lite: neoprene front panel with purple trim, adjustable shoulder straps and a side buckle](../../../assets/shop/chest-harness-lite.webp) | ![Premium chest harness with an IBIS tracker fitted in the front mount](../../../assets/shop/chest-harness-premium.webp) |
+
 The Lite Edition set has no harness; the Chest Harness Lite is the usual add-on.
 
 ## The tracker mount
@@ -20,6 +24,8 @@ The harness carries a **mount** that clips onto the harness with a GoPro-style t
 | IBIS tracker mount | Official SlimeVR tracker bracket | SlimeVR extension bracket |
 |---|---|---|
 | ![IBIS chest mount: square tray with side rails and a two-prong GoPro-style fork](../../../assets/photos/chest-mount-ibis.webp) | ![Rounded bracket with two screw bosses and a two-prong fork, for an official SlimeVR tracker](../../../assets/photos/chest-mount-slimevr.webp) | ![Flat bracket with raised lips and strap slots at both ends, for the SlimeVR extension tracker](../../../assets/photos/extension-bracket.webp) |
+
+![The official-SlimeVR bracket clipped onto the standard chest harness, seen from the front](../../../assets/shop/harness-slimevr-bracket-closeup.webp)
 
 ## Putting it on
 

@@ -48,7 +48,7 @@ Back in the SlimeVR Server window, click **Setup**. The wizard will walk you thr
 1. Wi-Fi credentials — **skip this** for IBIS trackers (they use the receiver, not Wi-Fi)
 2. **Assign each tracker to a body part** (left foot, right ankle, hip, etc.)
 3. **Mounting calibration** — strike a T-pose and follow the prompts
-4. **Body proportions** — enter your height, then either let AutoBone measure you in VR or fine-tune by hand
+4. **Body proportions** — set your height (auto-measured from the headset, or typed in) and let the server scale your proportions from it
 
 Full walkthrough: [First Launch](/slimevr-server/first-launch/).
 

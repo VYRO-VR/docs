@@ -6,6 +6,10 @@ export default defineConfig({
   site: 'https://docs.vyrovr.com',
   redirects: {
     '/straps/premium-strap/': '/straps/comfort-strap/',
+    // Short URLs used by VYRO VR Preflight's built-in doc viewer.
+    '/quick-start/': '/getting-started/quick-start/',
+    '/pairing/': '/trackers/pairing/',
+    '/wearing/': '/straps/wearing-trackers/',
   },
   integrations: [
     starlight({

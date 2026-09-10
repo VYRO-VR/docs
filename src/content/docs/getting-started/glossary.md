@@ -21,7 +21,7 @@ A VYRO VR-made, SlimeVR-compatible tracker using the nRF 2.4 GHz wireless protoc
 
 ## nRF
 
-Nordic Semiconductor's family of wireless microcontrollers. IBIS trackers and receivers are built around the nRF52840.
+Nordic Semiconductor's family of wireless microcontrollers. IBIS trackers are built around the nRF52833; the VYRO VR Receiver uses the nRF52840.
 
 ## Receiver / dongle
 
@@ -43,9 +43,13 @@ A short routine in the SlimeVR setup wizard where you stand and pose in specific
 
 The lengths of your bones (femur, tibia, torso, etc.). SlimeVR needs these to translate tracker rotations into limb positions.
 
+## Automatic proportions
+
+SlimeVR's default way of setting body proportions: it scales average human bone lengths from your height, which it can measure from the headset. VYRO VR's recommended method.
+
 ## AutoBone
 
-The SlimeVR feature that measures your body proportions automatically by watching you walk and squat in VR. Usually beats manual entry.
+An older SlimeVR feature that estimates body proportions from a recording of you walking and squatting. Still in the server, but no longer recommended — use the height-based automatic proportions instead.
 
 ## Full reset
 
@@ -78,6 +82,10 @@ The piece of software that exposes SlimeVR trackers to SteamVR as virtual Vive-s
 ## Side calibration
 
 A short IMU calibration you trigger from the tracker itself (two button presses) with the tracker resting on a flat surface. Removes gyro bias so the tracker drifts less. Not the same thing as mounting calibration.
+
+## Preflight
+
+**VYRO VR Preflight** is VYRO's desktop setup app (Windows, with macOS and Linux builds). It pairs trackers, checks and updates firmware on trackers and the receiver, walks through calibration and setup, and exports diagnostics for support. Download it from [github.com/VYRO-VR/preflight/releases](https://github.com/VYRO-VR/preflight/releases/latest). See [Updating Firmware](/firmware/updating/).
 
 ## Smol Slime
 

@@ -7,11 +7,13 @@ Before you start, lay everything out on a flat surface and check it against the 
 
 ## Standard IBIS sets (Core / Advanced / Full Body)
 
+![IBIS trackers in the charging dock, each labelled with a placement sticker such as Left Arm and Right Arm](../../../assets/shop/dock-labelled-trackers.webp)
+
 The three standard sets ship with identical contents apart from the tracker count and the strap pack:
 
 - **IBIS trackers** — 6 (Core), 8 (Advanced), or 10 (Full Body)
 - **2 sheets of placement stickers** (10 per sheet) for labelling trackers by body part
-- **A5 quick-start card** pointing at [vyrovr.com/setup](https://vyrovr.com/setup)
+- **A5 quick-start card** pointing at this site
 - **10-port USB-C charging dock** + USB-A to USB-C cable
 - **USB receiver** + **1.5 m USB extension cable** (USB-A male to USB-A female). The receiver design varies by batch — see [Installing the Receiver](/receiver/installing/) to identify yours.
 - **Chest harness with tracker mount**, plus one spare mount
@@ -47,11 +49,17 @@ The Lite Edition is a stripped-back starter set. It includes:
 - USB receiver + cable
 - 6 mounting trays + 1 spare, 6 quick-release hooks + 1 spare
 
+![Lite Edition contents laid out: six labelled trackers on their straps, the receiver and its cable](../../../assets/shop/lite-edition-contents.webp)
+
 It does **not** include the charging dock, the chest harness, or placement stickers. Charge Lite trackers one at a time with any USB-C cable — see [Charging](/charging-and-battery/charging/). If you want a chest tracker, the [Chest Harness Lite](/straps/chest-harness/) is sold separately.
 
 ## IBIS Premium sets
 
-Premium sets swap the basic strap pack for **VYRO VR comfort straps** (also called **premium straps** — same product, see [Comfort / Premium Straps](/straps/comfort-strap/)) and ship with a **Styria receiver** pre-paired to the trackers. In the box:
+Premium sets swap the basic strap pack for **VYRO VR comfort straps** (also called **premium straps** — same product, see [Comfort / Premium Straps](/straps/comfort-strap/)) and ship with a **Styria receiver** pre-paired to the trackers.
+
+![The full comfort strap bundle: chest harness, hip harness, two thigh straps, two ankle straps, two arm straps and two basic foot straps](../../../assets/shop/comfort-full-bundle.webp)
+
+In the box:
 
 - 6 / 8 / 10 × IBIS trackers, stickers, trays, and hooks as above
 - 10-port charging dock + USB-C cable
@@ -69,6 +77,10 @@ If you added an upgrade kit to your order, it ships in its own bag:
 
 - **Foot Tracker Upgrade Kit** — 2 trackers + 2 × 30 cm basic straps (also fine for arms)
 - **Arm Tracker Upgrade Kit** — 2 trackers + 2 VYRO VR comfort arm straps (a basic-strap variant is also sold)
+
+| Foot Tracker Upgrade Kit | Arm Tracker Upgrade Kit |
+|---|---|
+| ![Two IBIS trackers in trays on narrow basic foot straps](../../../assets/shop/foot-kit.webp) | ![Two IBIS trackers on purple-trimmed VYRO VR comfort arm straps](../../../assets/shop/arm-kit-comfort.webp) |
 - Both kits are offered with or without a **Styria receiver**. If you bought the no-receiver variant, the new trackers must be paired to your existing receiver and run the same firmware version — see [Pairing](/trackers/pairing/).
 - **VYRO VR Comfort Strap Bundles** (Core / Advanced / Full Body / Essential) — comfort straps that replace your basic straps; trackers not included
 
