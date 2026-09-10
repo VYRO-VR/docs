@@ -38,7 +38,7 @@ Several infographics on this site are by **Spazzwan** from the SlimeVR community
 
 ## Other useful links
 
-- [vyrovr.com](https://vyrovr.com) (storefront and blog) · [Setup guide](https://vyrovr.com/setup) · [Contact](https://vyrovr.com/pages/contact)
+- [vyrovr.com](https://vyrovr.com) (storefront and blog) · [Contact](https://vyrovr.com/pages/contact)
 - [VYRO VR on YouTube](https://www.youtube.com/channel/UCMEc2Ae1-VYC0SYsQ9qyevg) · [VYRO VR on TikTok](https://www.tiktok.com/@vyrovr)
 - [SlimeVR project home](https://slimevr.dev)
 - [SlimeVR upstream documentation](https://docs.slimevr.dev) (deep technical reference; the [Smol Slimes section](https://docs.slimevr.dev/smol-slimes/) covers the nRF firmware IBIS runs)

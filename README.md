@@ -39,7 +39,7 @@ Open a PR against `main`. Every page has an "Edit this page" link in the footer.
 
 ## TODO — items needing VYRO input
 
-- Add photos of the comfort (R2) straps and the three receiver designs; `src/assets/photos/` has the basic-strap and harness-mount shots already
+- Product photos live in `src/assets/photos/` (VYRO's own shots) and `src/assets/shop/` (pulled from vyrovr.com product listings). Refresh `shop/` when product photography changes.
 - Confirm the unverified LED rows marked in `src/content/docs/trackers/led-codes.md` against current shipping firmware
 - Confirm the exact Stay Aligned menu path in the current SlimeVR Server release (`src/content/docs/firmware/stay-aligned.md`)
 - Pick a final accent color in `src/styles/custom.css`

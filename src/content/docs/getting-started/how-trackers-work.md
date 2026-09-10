@@ -19,7 +19,7 @@ That's the whole stack:
 
 ## Why "nRF"?
 
-IBIS trackers use a Nordic **nRF52840** microcontroller with a built-in 2.4 GHz radio (the same family of chip you'll find in many Bluetooth devices, but here it runs the SlimeVR "Smol Slime" firmware with a custom low-latency protocol). That's the "nRF" in nRF-based SlimeVR designs.
+IBIS trackers use a Nordic **nRF52833** microcontroller with a built-in 2.4 GHz radio (the same family of chip you'll find in many Bluetooth devices, but here it runs the SlimeVR "Smol Slime" firmware with a custom low-latency protocol). That's the "nRF" in nRF-based SlimeVR designs.
 
 IBIS trackers do not join Wi-Fi. They run on a dedicated 2.4 GHz radio link to the receiver, which means **30–70 hour battery life** (50+ is typical), **low latency**, and **no router configuration**. The trade-off is range: nRF trackers transmit at much lower power than Wi-Fi trackers, so the receiver only covers your playspace (roughly 10 m), not your whole house.
 
@@ -31,7 +31,7 @@ This is also why drift happens over time: small rotation errors accumulate. That
 
 ## What the receiver does
 
-The receiver is a small USB device with its own nRF52840 radio. It listens for traffic from every paired tracker and forwards the packets to the SlimeVR Server over USB. There's nothing for you to configure on it day to day; it's plug-and-play. VYRO VR has shipped three receiver designs (HolyIOT, Styria, and the amplified VYRO VR Receiver) — they all work the same way, see [Installing the Receiver](/receiver/installing/).
+The receiver is a small USB device with its own nRF52 radio (the VYRO VR Receiver uses an nRF52840). It listens for traffic from every paired tracker and forwards the packets to the SlimeVR Server over USB. There's nothing for you to configure on it day to day; it's plug-and-play. VYRO VR has shipped three receiver designs (HolyIOT, Styria, and the amplified VYRO VR Receiver) — they all work the same way, see [Installing the Receiver](/receiver/installing/).
 
 :::caution[Always use the extension cable]
 The extension cable is **not optional**. The receiver's USB connector is small and fragile, and plugging it straight into your PC repeatedly can damage it. The cable also protects wireless range — 2.4 GHz is easily attenuated by your PC chassis. Extending the receiver up and out of the case can double or triple your effective range.

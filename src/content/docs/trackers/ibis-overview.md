@@ -5,6 +5,8 @@ description: Specs, controls, and at-a-glance reference for IBIS trackers.
 
 The IBIS tracker (currently shipping as **Ibis 2.0**, 2026 revision with a physical button) is VYRO VR's SlimeVR-compatible full-body tracker. This page is a quick reference; deeper instructions live under the section pages.
 
+![Two IBIS trackers: small black squares with rounded corners, each with a single button on the top face](../../../assets/shop/trackers-pair.webp)
+
 ## Specs
 
 | | |
@@ -14,7 +16,7 @@ The IBIS tracker (currently shipping as **Ibis 2.0**, 2026 revision with a physi
 | Battery | 120 mAh lithium-polymer (401230 cell) |
 | Battery life | 30–50 hours with constant movement; 50+ typical for social play; up to ~70 hours possible |
 | IMU | ST LSM6DSV |
-| Microcontroller | Nordic nRF52840 |
+| Microcontroller | Nordic nRF52833 |
 | Wireless | 2.4 GHz nRF ("Smol Slime" protocol) via the included USB receiver; range roughly 10 m / your playspace |
 | Charging | USB-C, 5 V; via the 10-port charging dock or any USB-C cable |
 | Auto-sleep | After ~15 minutes without movement |
@@ -23,7 +25,9 @@ The IBIS tracker (currently shipping as **Ibis 2.0**, 2026 revision with a physi
 
 ## Controls
 
-There is **one button** on the tracker. Different press counts do different things.
+There is **one button** on the tracker — the small oval on the top face, which also carries the LED. Different press counts do different things.
+
+![Close-up of an IBIS tracker showing the single button with the LED glowing through it](../../../assets/shop/tracker-button.webp)
 
 | Action | Result |
 |---|---|
@@ -34,7 +38,7 @@ There is **one button** on the tracker. Different press counts do different thin
 | Hold | Power off |
 
 :::caution
-The button behavior above matches VYRO VR's current shipping firmware and the [vyrovr.com setup guide](https://vyrovr.com/setup). Generic Smol Slime firmware maps the button differently (hold for pairing, 4 presses for DFU), so if you flashed a non-VYRO build the counts may not match. Check the [Discord](https://discord.gg/vyrovr) if in doubt — and let us know so we can update this page.
+The button behavior above matches VYRO VR's current shipping firmware. Generic Smol Slime firmware maps the button differently (hold for pairing, 4 presses for DFU), so if you flashed a non-VYRO build the counts may not match. Check the [Discord](https://discord.gg/vyrovr) if in doubt — and let us know so we can update this page.
 :::
 
 ### Side calibration (2 presses)

@@ -7,7 +7,7 @@ The IBIS tracker has a single LED that uses different on/off patterns to communi
 
 ## Button-driven states
 
-These are the patterns VYRO VR documents for current shipping firmware (see the [vyrovr.com setup guide](https://vyrovr.com/setup)):
+These are the patterns for VYRO VR's current shipping firmware:
 
 | Pattern | Meaning |
 |---|---|

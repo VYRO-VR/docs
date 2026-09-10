@@ -7,6 +7,8 @@ description: How to charge IBIS trackers and use the charging dock.
 
 Standard and Premium IBIS sets include a **10-port USB-C charging dock**. It powers up to 10 trackers at once and keeps them organized between sessions. (The Lite Edition doesn't include one — see [Charging a single tracker](#charging-a-single-tracker) below, or buy the dock separately from [vyrovr.com](https://vyrovr.com).)
 
+![The 10-port charging dock with a set of IBIS trackers standing in it, USB-C socket on the front](../../../assets/shop/dock-trackers.webp)
+
 ### How to use it
 
 1. **Drop each tracker into a port**, USB-C end down. The dock's port engages with the tracker's USB-C automatically.

@@ -19,6 +19,8 @@ Hold the button until LED stops. Single-press to boot normally. Re-check battery
 
 Lithium batteries lose capacity over time. After 3-5 years of typical use, expect 70-80% of original capacity. A tracker that's been heavily used for a few years legitimately won't go 50 hours anymore — though it should still go 20+. Spare 120 mAh cells are sold on [vyrovr.com](https://vyrovr.com) if you're comfortable with a battery swap; otherwise ask [support](/support/).
 
+![The 401230 3.7 V 120 mAh lithium-polymer cell used in IBIS trackers, with its two-pin connector](../../../assets/shop/battery.webp)
+
 A **brand-new tracker** showing very short life is a different issue — see step 5.
 
 ## 4. Storage / temperature damage

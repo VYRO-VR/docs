@@ -21,7 +21,7 @@ A VYRO VR-made, SlimeVR-compatible tracker using the nRF 2.4 GHz wireless protoc
 
 ## nRF
 
-Nordic Semiconductor's family of wireless microcontrollers. IBIS trackers and receivers are built around the nRF52840.
+Nordic Semiconductor's family of wireless microcontrollers. IBIS trackers are built around the nRF52833; the VYRO VR Receiver uses the nRF52840.
 
 ## Receiver / dongle
 

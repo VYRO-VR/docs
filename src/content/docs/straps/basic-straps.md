@@ -3,7 +3,7 @@ title: Basic Straps & Trays
 description: Assemble the silicone-backed straps, mounting trays, and quick-release hooks that ship with every standard IBIS set.
 ---
 
-Every standard IBIS set (and the Lite Edition, the Foot Tracker Upgrade Kit, and the basic-strap Arm kit) ships with **basic straps**: silicone-backed hook-and-loop straps, a plastic **mounting tray** per tracker, and a **quick-release hook** per strap. This page is how to put them together. These steps mirror Step 4 of the [vyrovr.com setup guide](https://vyrovr.com/setup), which has photos.
+Every standard IBIS set (and the Lite Edition, the Foot Tracker Upgrade Kit, and the basic-strap Arm kit) ships with **basic straps**: silicone-backed hook-and-loop straps, a plastic **mounting tray** per tracker, and a **quick-release hook** per strap. This page is how to put them together.
 
 If you have a Premium set or bought a Comfort Strap Bundle, see [Comfort / Premium Straps](/straps/comfort-strap/) instead.
 
@@ -18,6 +18,8 @@ If you have a Premium set or bought a Comfort Strap Bundle, see [Comfort / Premi
 | 30 mm tray | 25 mm tray | Quick-release hook |
 |---|---|---|
 | ![30 mm mounting tray: a square frame with a single wide strap slot and a notch for the USB-C port](../../../assets/photos/tray-30mm.webp) | ![25 mm mounting tray: a square frame with three narrower strap slots](../../../assets/photos/tray-25mm.webp) | ![Quick-release hook: a small rectangular loop with a hooked lip](../../../assets/photos/hook.webp) |
+
+![The 30 mm silicone strap pack laid out by length: foot, ankle/arm, thigh and hip/chest straps](../../../assets/shop/strap-pack-30mm.webp)
 
 The chest tracker doesn't use a strap; it clips onto the [chest harness mount](/straps/chest-harness/).
 
@@ -52,6 +54,8 @@ See [Wearing Trackers](/straps/wearing-trackers/) for placement and orientation.
 - Wipe the silicone with a damp cloth between washes.
 - Velcro picks up lint; pick it clean occasionally to keep its grip.
 - Replacement trays and hooks are sold on [vyrovr.com](https://vyrovr.com) (Ibis Tracker Replacement Trays & Hooks), as are 6- and 10-strap packs.
+
+![A set of replacement mounting trays and quick-release hooks](../../../assets/shop/replacement-trays-hooks.webp)
 
 ## Troubleshooting
 

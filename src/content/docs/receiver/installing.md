@@ -19,6 +19,10 @@ VYRO VR has shipped three receiver designs. They all run the same SlimeVR nRF re
 | **Styria** | Sturdier cased dongle; standard in current standard sets and upgrade kits | USB-A male | Serial command (`pair`) |
 | **VYRO VR Receiver** | Printed case, no external antenna, a small button on the case. Amplified (RFX2401C front-end) with a PCB trace antenna | USB-C female (ships with a USB-A to USB-C cable) | Press the case button |
 
+| HolyIOT | Styria | VYRO VR Receiver |
+|---|---|---|
+| ![HolyIOT receiver: a bare USB-A dongle with a long external antenna](../../../assets/shop/receiver-holyiot.webp) | ![Styria receiver: a cased USB-A dongle labelled Styria with a hinged external antenna](../../../assets/shop/receiver-styria.webp) | ![VYRO VR Receiver: a small black box with a USB-C socket and a braided USB-A to USB-C cable](../../../assets/shop/receiver-vyro.webp) |
+
 All three plug into a USB-A port on your PC: the HolyIOT and Styria receivers via the USB-A extension cable, the VYRO VR Receiver via its USB-A to USB-C cable (extend that with the USB-A extension if you need reach). If you have an external antenna, keep it upright and don't force it — snapped SMA connectors are the most common receiver failure.
 
 ## Step by step
