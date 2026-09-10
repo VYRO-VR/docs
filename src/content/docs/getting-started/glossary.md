@@ -43,9 +43,13 @@ A short routine in the SlimeVR setup wizard where you stand and pose in specific
 
 The lengths of your bones (femur, tibia, torso, etc.). SlimeVR needs these to translate tracker rotations into limb positions.
 
+## Automatic proportions
+
+SlimeVR's default way of setting body proportions: it scales average human bone lengths from your height, which it can measure from the headset. VYRO VR's recommended method.
+
 ## AutoBone
 
-The SlimeVR feature that measures your body proportions automatically by watching you walk and squat in VR. Usually beats manual entry.
+An older SlimeVR feature that estimates body proportions from a recording of you walking and squatting. Still in the server, but no longer recommended — use the height-based automatic proportions instead.
 
 ## Full reset
 

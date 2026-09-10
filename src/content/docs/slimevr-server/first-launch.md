@@ -39,10 +39,7 @@ Stand up straight, follow the on-screen pose prompts (T-pose, etc.). The wizard 
 
 ### 5. Body proportions
 
-Enter your **height**. Then either:
-
-- **AutoBone** (recommended) — put your headset on, walk and squat around for ~30 seconds, and the server measures you in VR. Way more accurate than manual entry.
-- **Manual** — enter individual bone lengths from a tape measurement.
+Set your **height** — click **Calculate my height automatically** while standing straight with the headset on, or type it in — and apply. The server scales all bone lengths from it. That's the method VYRO VR recommends; skip AutoBone unless you have a specific reason to try it.
 
 More: [Body Proportions](/slimevr-server/body-proportions/).
 
